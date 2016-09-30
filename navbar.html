@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bootstrap 4 Basic template</title>
+        <meta name="description" content="Bootstrap 4 element styles and classes">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body> 
+        <main class="content-wrap">
+            <nav class="navbar navbar-light bg-faded">
+                <div class="container">
+                    <a class="navbar-brand" href="./">BS4 Basic template</a>
+                    <button class="navbar-toggler pull-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        &#9776;
+                    </button>
+                    <div class="clearfix hidden-sm-up"></div>
+
+                    <div class="collapse navbar-toggleable-xs" id="bs4-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layout</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a class="nav-link" href="media-object.html">Media object</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Content</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a class="nav-link" href="typography.html">Typography</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="code.html">Code</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="images.html">Images</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="tables.html">Tables</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="figures.html">Figures</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a class="nav-link" href="alerts.html">Alerts</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="breadcrumb.html">Breadcrumb</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="buttons.html">Buttons</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="button-group.html">Button group</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="card.html">Card</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="carousel.html">Carousel</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="collapse.html">Collapse</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="dropdowns.html">Dropdowns</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="forms.html">Forms</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="input-group.html">Input group</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="jumbotron.html">Jumbotron</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="list-group.html">List group</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="modal.html">Modal</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="navs.html">Navs</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="navbar.html">Navbar</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="pagination.html">Pagination</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="popovers.html">Popovers</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="progress.html">Progress</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="tag.html">Tag</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="tooltips.html">Tooltips</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="utilities.html">Utilities</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="credits.html">Credits</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--end navbar header-->  
+
+            <div class="container">
+                <div class="row">
+                    <article class="col-xs-12">
+                        <header class="m-b-1 m-t-2">
+                            <h1 class="m-y-0">Navbar</h1>
+                            <hr class="m-b-0 m-t-1">
+                        </header>
+
+                        <h2>Basic example</h2>
+                        <div class="example-block">
+                            <nav class="navbar navbar-light bg-faded">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <form class="form-inline">
+                                            <input class="form-control" type="text" placeholder="Form on left">
+                                            <button class="btn btn-outline-secondary" type="button">Button</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                                <ul class="nav navbar-nav pull-xs-right">
+                                    <li class="nav-item">
+                                        <form class="form-inline">
+                                            <input class="form-control" type="text" placeholder="Form on right">
+                                        </form>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+
+                        <h2>Responsive navbar</h2>
+                        <div class="example-block">
+                            <nav class="navbar navbar-light bg-faded m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar1" aria-controls="exResponsiveNavbar1" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar1">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-inverse m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar2" aria-controls="exResponsiveNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar2">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-danger m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar3" aria-controls="exResponsiveNavbar3" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar3">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-info m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar4" aria-controls="exResponsiveNavbar4" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar4">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-primary m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar5" aria-controls="exResponsiveNavbar5" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar5">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-success m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar6" aria-controls="exResponsiveNavbar6" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar6">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-warning m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar7" aria-controls="exResponsiveNavbar7" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar7">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+ 
+                            <h3>Actived menu in dropdown menu</h3>
+                            <nav class="navbar navbar-light bg-faded m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar1" aria-controls="exResponsiveActiveInDropdownNavbar1" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar1">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown active">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item active" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-inverse m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar2" aria-controls="exResponsiveActiveInDropdownNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar2">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown active">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item active" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-danger m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar3" aria-controls="exResponsiveActiveInDropdownNavbar3" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar3">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown active">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item active" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-info m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar4" aria-controls="exResponsiveActiveInDropdownNavbar4" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar4">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown active">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item active" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-primary m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar5" aria-controls="exResponsiveActiveInDropdownNavbar5" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar5">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown active">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item active" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-success m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar6" aria-controls="exResponsiveActiveInDropdownNavbar6" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar6">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown active">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item active" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-warning m-b-1">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar7" aria-controls="exResponsiveActiveInDropdownNavbar7" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div class="clearfix hidden-lg-up"></div>
+                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar7">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                        <li class="nav-item dropdown active">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item active" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <form class="form-inline">
+                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <button class="btn btn-outline-secondary" type="button">Button</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav pull-lg-right">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+ 
+                        </div>
+
+
+                        <h2>Collapsible content</h2>
+                        <div class="example-block">
+                            <nav class="navbar navbar-light bg-faded m-b-1">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar1" aria-controls="exCollapsingNavbar1" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div id="exCollapsingNavbar1" class="collapse">
+                                    <div class="bg-inverse p-a-1">
+                                        <h4>Collapsed content</h4>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-inverse m-b-1">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div id="exCollapsingNavbar2" class="collapse">
+                                    <div class="bg-inverse p-a-1">
+                                        <h4>Collapsed content</h4>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-inverse m-b-1">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar3" aria-controls="exCollapsingNavbar3" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div id="exCollapsingNavbar3" class="collapse">
+                                    <div class="bg-danger p-a-1">
+                                        <h4>Collapsed content</h4>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-inverse m-b-1">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar4" aria-controls="exCollapsingNavbar4" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div id="exCollapsingNavbar4" class="collapse">
+                                    <div class="bg-info p-a-1">
+                                        <h4>Collapsed content</h4>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-inverse m-b-1">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar5" aria-controls="exCollapsingNavbar5" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div id="exCollapsingNavbar5" class="collapse">
+                                    <div class="bg-primary p-a-1">
+                                        <h4>Collapsed content</h4>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-inverse m-b-1">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar6" aria-controls="exCollapsingNavbar6" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div id="exCollapsingNavbar6" class="collapse">
+                                    <div class="bg-success p-a-1">
+                                        <h4>Collapsed content</h4>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-inverse m-b-1">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar7" aria-controls="exCollapsingNavbar7" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div id="exCollapsingNavbar7" class="collapse">
+                                    <div class="bg-warning p-a-1">
+                                        <h4>Collapsed content</h4>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-danger m-b-1">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar8" aria-controls="exCollapsingNavbar8" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div id="exCollapsingNavbar8" class="collapse">
+                                    <div class="bg-inverse p-a-1">
+                                        <h4>Collapsed content</h4>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-info m-b-1">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar9" aria-controls="exCollapsingNavbar9" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div id="exCollapsingNavbar9" class="collapse">
+                                    <div class="bg-inverse p-a-1">
+                                        <h4>Collapsed content</h4>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-primary m-b-1">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar10" aria-controls="exCollapsingNavbar10" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div id="exCollapsingNavbar10" class="collapse">
+                                    <div class="bg-inverse p-a-1">
+                                        <h4>Collapsed content</h4>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-success m-b-1">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar11" aria-controls="exCollapsingNavbar11" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div id="exCollapsingNavbar11" class="collapse">
+                                    <div class="bg-inverse p-a-1">
+                                        <h4>Collapsed content</h4>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <nav class="navbar navbar-dark bg-warning m-b-1">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar12" aria-controls="exCollapsingNavbar12" aria-expanded="false" aria-label="Toggle navigation">
+                                    &#9776;
+                                </button>
+                                <div id="exCollapsingNavbar12" class="collapse">
+                                    <div class="bg-inverse p-a-1">
+                                        <h4>Collapsed content</h4>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <ul class="nav">
+                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
+                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+ 
+                        </div>
+
+
+                        <h2>Placement</h2>
+                        <div class="example-block example-navbar-block">
+                            <nav class="navbar navbar-full navbar-light bg-faded">
+                                <a class="navbar-brand" href="#">Full width</a>
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item"><a class="nav-link active">Active link</a></li>
+                                    <li class="nav-item"><a class="nav-link">Link</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="example-block example-navbar-block">
+                            <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+                                <a class="navbar-brand" href="#">Fixed top</a>
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item"><a class="nav-link active">Active link</a></li>
+                                    <li class="nav-item"><a class="nav-link">Link</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="example-block example-navbar-block">
+                            <nav class="navbar navbar-fixed-bottom navbar-light bg-faded">
+                                <a class="navbar-brand" href="#">Fixed bottom</a>
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item"><a class="nav-link active">Active link</a></li>
+                                    <li class="nav-item"><a class="nav-link">Link</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer-wrap">
+            <div class="container">
+                <div class="col-xs-12">
+                    <p>&copy; <a href="https://github.com/Rundiz/bootstrap4-basic-template" target="rundiz_bs4_bt">rundiz - Bootstrap 4 Basic template</a>.</p>
+                </div>
+            </div>
+        </footer> 
+
+
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html> 

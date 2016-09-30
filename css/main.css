@@ -1,0 +1,77 @@
+/* 
+ * Author     : Vee W.
+*/
+html, body {
+  height: 100%;
+}
+
+.content-wrap {
+  height: auto;
+  margin: 0 auto -40px;
+  min-height: 100%;
+  padding: 0 0 40px;
+}
+
+.example-block {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #ddd;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+}
+.example-block > .card {
+  max-width: 300px;
+}
+.example-block > .example-modal-static {
+  bottom: auto;
+  display: block;
+  left: auto;
+  position: relative;
+  right: auto;
+  top: auto;
+  z-index: 1;
+}
+.example-block.example-navbar-block {
+  height: 9rem;
+  position: relative;
+}
+.example-block.example-navbar-block > .navbar-fixed-top {
+  margin-left: -0.6rem;
+  margin-right: -0.6rem;
+  margin-top: -0.6rem;
+  position: static;
+}
+.example-block.example-navbar-block > .navbar-fixed-bottom {
+  position: absolute;
+}
+.example-block.example-static-popover .popover {
+  float: left;
+  margin: 1rem;
+  position: relative;
+}
+.example-block.example-static-tooltip .tooltip {
+  display: inline-block;
+  margin: 1rem 1.2rem;
+  opacity: 1;
+  position: relative;
+}
+
+.footer-wrap {
+  background: rgba(210, 210, 210, 0.4);
+  font-size: 0.75rem;
+  height: 40px;
+}
+.footer-wrap p {
+  color: #aaa;
+  margin: 10px 0;
+}
+
+.home-page-feature-thumbnails img.img-fluid {
+  margin: 0 auto;
+}
+
+.home-page-jumbotron {
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */

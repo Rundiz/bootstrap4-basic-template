@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bootstrap 4 Basic template</title>
+        <meta name="description" content="Bootstrap 4 element styles and classes">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body> 
+        <main class="content-wrap">
+            <nav class="navbar navbar-light bg-faded">
+                <div class="container">
+                    <a class="navbar-brand" href="./">BS4 Basic template</a>
+                    <button class="navbar-toggler pull-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        &#9776;
+                    </button>
+                    <div class="clearfix hidden-sm-up"></div>
+
+                    <div class="collapse navbar-toggleable-xs" id="bs4-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layout</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a class="nav-link" href="media-object.html">Media object</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Content</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a class="nav-link" href="typography.html">Typography</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="code.html">Code</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="images.html">Images</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="tables.html">Tables</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="figures.html">Figures</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a class="nav-link" href="alerts.html">Alerts</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="breadcrumb.html">Breadcrumb</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="buttons.html">Buttons</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="button-group.html">Button group</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="card.html">Card</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="carousel.html">Carousel</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="collapse.html">Collapse</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="dropdowns.html">Dropdowns</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="forms.html">Forms</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="input-group.html">Input group</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="jumbotron.html">Jumbotron</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="list-group.html">List group</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="modal.html">Modal</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="navs.html">Navs</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="navbar.html">Navbar</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="pagination.html">Pagination</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="popovers.html">Popovers</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="progress.html">Progress</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="tag.html">Tag</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="tooltips.html">Tooltips</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="utilities.html">Utilities</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="credits.html">Credits</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--end navbar header-->  
+
+            <div class="container">
+                <div class="row">
+                    <article class="col-xs-12">
+                        <header class="m-b-1 m-t-2">
+                            <h1 class="m-y-0">Button group</h1>
+                            <hr class="m-b-0 m-t-1">
+                        </header>
+
+                        <h2>Basic example</h2>
+                        <div class="example-block">
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button class="btn btn-secondary" type="button">Left</button>
+                                <button class="btn btn-secondary" type="button">Middle</button>
+                                <button class="btn btn-secondary" type="button">Right</button>
+                            </div>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button class="btn btn-secondary" type="button">ซ้าย</button>
+                                <button class="btn btn-secondary" type="button">กลาง</button>
+                                <button class="btn btn-secondary" type="button">ขวา</button>
+                            </div>
+                            <hr />
+                            <h3>With button options</h3>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button class="btn btn-primary" type="button">Primary</button>
+                                <button class="btn btn-success" type="button">Success</button>
+                                <button class="btn btn-info" type="button">Info</button>
+                                <button class="btn btn-warning" type="button">Warning</button>
+                                <button class="btn btn-danger" type="button">Danger</button>
+                            </div>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button class="btn btn-primary" type="button">ปุ่มหลัก</button>
+                                <button class="btn btn-success" type="button">สำเร็จ</button>
+                                <button class="btn btn-info" type="button">ข้อมูล</button>
+                                <button class="btn btn-warning" type="button">เตือน</button>
+                                <button class="btn btn-danger" type="button">อันตราย</button>
+                            </div>
+                        </div>
+
+                        <h2>Button toolbar</h2>
+                        <div class="example-block">
+                            <div class="btn-group" role="toolbar" aria-label="Toolbar with button groups">
+                                <button class="btn btn-secondary" type="button">1</button>
+                                <button class="btn btn-secondary" type="button">2</button>
+                                <button class="btn btn-secondary" type="button">3</button>
+                                <button class="btn btn-secondary" type="button">4</button>
+                            </div>
+                            <div class="btn-group" role="toolbar" aria-label="Toolbar with button groups">
+                                <button class="btn btn-secondary" type="button">5</button>
+                                <button class="btn btn-secondary" type="button">6</button>
+                                <button class="btn btn-secondary" type="button">7</button>
+                            </div>
+                        </div>
+
+                        <h2>Sizing</h2>
+                        <div class="example-block">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="btn-toolbar" role="toolbar">
+                                        <div class="btn-group btn-group-lg">
+                                            <button class="btn btn-secondary" type="button">Left</button>
+                                            <button class="btn btn-secondary" type="button">Middle</button>
+                                            <button class="btn btn-secondary" type="button">Right</button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-toolbar" role="toolbar">
+                                        <div class="btn-group">
+                                            <button class="btn btn-secondary" type="button">Left</button>
+                                            <button class="btn btn-secondary" type="button">Middle</button>
+                                            <button class="btn btn-secondary" type="button">Right</button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-toolbar" role="toolbar">
+                                        <div class="btn-group btn-group-sm">
+                                            <button class="btn btn-secondary" type="button">Left</button>
+                                            <button class="btn btn-secondary" type="button">Middle</button>
+                                            <button class="btn btn-secondary" type="button">Right</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="btn-toolbar" role="toolbar">
+                                        <div class="btn-group btn-group-lg">
+                                            <button class="btn btn-secondary" type="button">ซ้าย</button>
+                                            <button class="btn btn-secondary" type="button">กลาง</button>
+                                            <button class="btn btn-secondary" type="button">ขวา</button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-toolbar" role="toolbar">
+                                        <div class="btn-group">
+                                            <button class="btn btn-secondary" type="button">ซ้าย</button>
+                                            <button class="btn btn-secondary" type="button">กลาง</button>
+                                            <button class="btn btn-secondary" type="button">ขวา</button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-toolbar" role="toolbar">
+                                        <div class="btn-group btn-group-sm">
+                                            <button class="btn btn-secondary" type="button">ซ้าย</button>
+                                            <button class="btn btn-secondary" type="button">กลาง</button>
+                                            <button class="btn btn-secondary" type="button">ขวา</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2>Nesting</h2>
+                        <div class="example-block">
+                            <div class="btn-group">
+                                <button class="btn btn-secondary" type="button">1</button>
+                                <button class="btn btn-secondary" type="button">2</button>
+                                <div class="btn-group">
+                                    <button id="btn-group-dropdown1" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Dropdown
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="btn-group-dropdown1">
+                                        <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                                        <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                                    </ul>
+                                </div>
+                                <div class="btn-group">
+                                    <button id="btn-group-dropdown2" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        ดรอปดาวน์
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="btn-group-dropdown2">
+                                        <li class="dropdown-item"><a href="#">ลิ้งค์</a></li>
+                                        <li class="dropdown-item"><a href="#">ลิ้งค์</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2>Vertical variation</h2>
+                        <div class="example-block">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-secondary" type="button">Button</button>
+                                <button class="btn btn-secondary" type="button">Button</button>
+                                <div class="btn-group">
+                                    <button id="btn-group-dropdown-vert1" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
+                                        Dropdown
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="btn-group-dropdown-vert1" role="menu">
+                                        <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                                        <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                                    </ul>
+                                </div>
+                                <button class="btn btn-secondary" type="button">ปุ่ม</button>
+                                <button class="btn btn-secondary" type="button">ปุ่ม</button>
+                                <div class="btn-group">
+                                    <button id="btn-group-dropdown-vert2" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
+                                        ดรอปดาวน์
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="btn-group-dropdown-vert2" role="menu">
+                                        <li class="dropdown-item"><a href="#">ลิ้งค์</a></li>
+                                        <li class="dropdown-item"><a href="#">ลิ้งค์</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer-wrap">
+            <div class="container">
+                <div class="col-xs-12">
+                    <p>&copy; <a href="https://github.com/Rundiz/bootstrap4-basic-template" target="rundiz_bs4_bt">rundiz - Bootstrap 4 Basic template</a>.</p>
+                </div>
+            </div>
+        </footer> 
+
+
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html> 

@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bootstrap 4 Basic template</title>
+        <meta name="description" content="Bootstrap 4 element styles and classes">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body> 
+        <main class="content-wrap">
+            <nav class="navbar navbar-light bg-faded">
+                <div class="container">
+                    <a class="navbar-brand" href="./">BS4 Basic template</a>
+                    <button class="navbar-toggler pull-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        &#9776;
+                    </button>
+                    <div class="clearfix hidden-sm-up"></div>
+
+                    <div class="collapse navbar-toggleable-xs" id="bs4-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layout</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a class="nav-link" href="media-object.html">Media object</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Content</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a class="nav-link" href="typography.html">Typography</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="code.html">Code</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="images.html">Images</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="tables.html">Tables</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="figures.html">Figures</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a class="nav-link" href="alerts.html">Alerts</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="breadcrumb.html">Breadcrumb</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="buttons.html">Buttons</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="button-group.html">Button group</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="card.html">Card</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="carousel.html">Carousel</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="collapse.html">Collapse</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="dropdowns.html">Dropdowns</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="forms.html">Forms</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="input-group.html">Input group</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="jumbotron.html">Jumbotron</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="list-group.html">List group</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="modal.html">Modal</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="navs.html">Navs</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="navbar.html">Navbar</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="pagination.html">Pagination</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="popovers.html">Popovers</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="progress.html">Progress</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="tag.html">Tag</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="tooltips.html">Tooltips</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="utilities.html">Utilities</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="credits.html">Credits</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--end navbar header-->  
+
+            <div class="container">
+                <div class="row">
+                    <article class="col-xs-12">
+                        <header class="m-b-1 m-t-2">
+                            <h1 class="m-y-0">Tables</h1>
+                            <hr class="m-b-0 m-t-1">
+                        </header>
+
+                        <h2>Basic table</h2>
+                        <h3>Basic standard table</h3>
+                        <div class="example-block">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>Basic invert table</h3>
+                        <div class="example-block">
+                            <table class="table table-inverse">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>Table head options</h3>
+                        <h4>Basic table head</h4>
+                        <div class="example-block">
+                            <table class="table">
+                                <thead class="thead-default">
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h4>Invert table head</h4>
+                        <div class="example-block">
+                            <table class="table">
+                                <thead class="thead-inverse">
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h2>Striped rows</h2>
+                        <h3>Basic striped</h3>
+                        <div class="example-block">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>Invert striped</h3>
+                        <div class="example-block">
+                            <table class="table table-striped table-inverse">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h2>Bordered tables</h2>
+                        <h3>Basic bordered</h3>
+                        <div class="example-block">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>Invert bordered</h3>
+                        <div class="example-block">
+                            <table class="table table-bordered table-inverse">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h2>Hoverable rows</h2>
+                        <h3>Basic hoverable</h3>
+                        <div class="example-block">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>Invert hoverable</h3>
+                        <div class="example-block">
+                            <table class="table table-hover table-inverse">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h2>Small table</h2>
+                        <h3>Basic small table</h3>
+                        <div class="example-block">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>Invert small table</h3>
+                        <div class="example-block">
+                            <table class="table table-sm table-inverse">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h2>Contexual classes</h2>
+                        <h3>On rows</h3>
+                        <div class="example-block">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr class="table-success">
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                    <tr class="table-info">
+                                        <th scope="row">4</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                    <tr class="table-warning">
+                                        <th scope="row">5</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr class="table-danger">
+                                        <th scope="row">6</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>On cells</h3>
+                        <div class="example-block">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td class="table-active">Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="table-danger" scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td class="table-success">วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td class="table-info">Interdum et malesuada</td>
+                                        <td class="table-warning">ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>Background on rows</h3>
+                        <div class="example-block">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr class="bg-primary">
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr class="bg-success">
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                    <tr class="bg-info">
+                                        <th scope="row">4</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                    <tr class="bg-warning">
+                                        <th scope="row">5</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr class="bg-danger">
+                                        <th scope="row">6</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>Background on rows for invert table</h3>
+                        <div class="example-block">
+                            <table class="table table-inverse">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr class="bg-primary">
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr class="bg-success">
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                    <tr class="bg-info">
+                                        <th scope="row">4</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                    <tr class="bg-warning">
+                                        <th scope="row">5</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr class="bg-danger">
+                                        <th scope="row">6</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>Background on cells</h3>
+                        <div class="example-block">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="bg-faded" scope="row">1</th>
+                                        <td class="bg-primary">Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="bg-danger" scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td class="bg-success">วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="bg-inverse" scope="row">3</th>
+                                        <td class="bg-info">Interdum et malesuada</td>
+                                        <td class="bg-warning">ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h2>Responsive table</h2>
+                        <div class="example-block">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Heading</th>
+                                            <th>Heading</th>
+                                            <th>Heading</th>
+                                            <th>Heading</th>
+                                            <th>Heading</th>
+                                            <th>Heading</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                            <td>Lorem ipsum</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <h2>Reflow table</h2>
+                        <div class="example-block">
+                            <table class="table table-reflow">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Table heading</th>
+                                        <th>Table heading</th>
+                                        <th>Table heading</th>
+                                        <th>Table heading</th>
+                                        <th>Table heading</th>
+                                        <th>Table heading</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                        <td>Table cell</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer-wrap">
+            <div class="container">
+                <div class="col-xs-12">
+                    <p>&copy; <a href="https://github.com/Rundiz/bootstrap4-basic-template" target="rundiz_bs4_bt">rundiz - Bootstrap 4 Basic template</a>.</p>
+                </div>
+            </div>
+        </footer> 
+
+
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html> 
