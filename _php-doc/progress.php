@@ -5,9 +5,9 @@
             <div class="container">
                 <div class="row">
                     <article class="col-xs-12">
-                        <header class="m-b-1 m-t-2">
-                            <h1 class="m-y-0">Progress</h1>
-                            <hr class="m-b-0 m-t-1">
+                        <header class="mb-1 mt-2">
+                            <h1 class="my-0">Progress</h1>
+                            <hr class="mb-0 mt-1">
                         </header>
 
                         <h2>Example</h2>
@@ -45,7 +45,7 @@
                         <h2>Animated stripes</h2>
                         <div class="example-block">
                             <progress class="progress progress-striped progress-animated" value="25" max="100"></progress>
-                            <p class="m-b-0"><small><a href="https://github.com/twbs/bootstrap/issues/17148" target="_blank" rel="nofollow">Doesn't work in all browsers.</a></small></p>
+                            <p class="mb-0"><small><a href="https://github.com/twbs/bootstrap/issues/17148" target="_blank" rel="nofollow">Doesn't work in all browsers.</a></small></p>
                         </div>
                     </article>
                 </div>

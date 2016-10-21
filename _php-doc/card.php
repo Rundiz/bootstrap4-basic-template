@@ -5,9 +5,9 @@
             <div class="container">
                 <div class="row">
                     <article class="col-xs-12">
-                        <header class="m-b-1 m-t-2">
-                            <h1 class="m-y-0">Card</h1>
-                            <hr class="m-b-0 m-t-1">
+                        <header class="mb-1 mt-2">
+                            <h1 class="my-0">Card</h1>
+                            <hr class="mb-0 mt-1">
                         </header>
 
                         <h2>Basic example</h2>
@@ -176,7 +176,7 @@
                         <div class="example-block">
                             <div class="card text-xs-center">
                                 <div class="card-header">
-                                    <ul class="nav nav-tabs card-header-tabs pull-xs-left">
+                                    <ul class="nav nav-tabs card-header-tabs float-xs-left">
                                         <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">Link</a></li>
                                         <li class="nav-item"><a class="nav-link disabled" href="#" onclick="return false;">Disabled</a></li>
@@ -190,7 +190,7 @@
                             </div>
                             <div class="card text-xs-center">
                                 <div class="card-header">
-                                    <ul class="nav nav-pills card-header-pills pull-xs-left">
+                                    <ul class="nav nav-pills card-header-pills float-xs-left">
                                         <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">Link</a></li>
                                         <li class="nav-item"><a class="nav-link disabled" href="#" onclick="return false;">Disabled</a></li>

@@ -5,9 +5,9 @@
             <div class="container">
                 <div class="row">
                     <article class="col-xs-12">
-                        <header class="m-b-1 m-t-2">
-                            <h1 class="m-y-0">Navbar</h1>
-                            <hr class="m-b-0 m-t-1">
+                        <header class="mb-1 mt-2">
+                            <h1 class="my-0">Navbar</h1>
+                            <hr class="mb-0 mt-1">
                         </header>
 
                         <h2>Basic example</h2>
@@ -33,7 +33,7 @@
                                         </form>
                                     </li>
                                 </ul>
-                                <ul class="nav navbar-nav pull-xs-right">
+                                <ul class="nav navbar-nav float-xs-right">
                                     <li class="nav-item">
                                         <form class="form-inline">
                                             <input class="form-control" type="text" placeholder="Form on right">
@@ -57,9 +57,9 @@
                         <div class="example-block">
 <?php
                             $navbar_responsive_example = <<<EOF
-                            <nav class="navbar %NAVBAR_CLASS% m-b-1">
+                            <nav class="navbar %NAVBAR_CLASS% mb-1">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar%EXAMPLE_NUMBER%" aria-controls="exResponsiveNavbar%EXAMPLE_NUMBER%" aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar%EXAMPLE_NUMBER%" aria-controls="exResponsiveNavbar%EXAMPLE_NUMBER%" aria-expanded="false" aria-label="Toggle navigation">
                                     &#9776;
                                 </button>
                                 <div class="clearfix hidden-lg-up"></div>
@@ -83,7 +83,7 @@
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav pull-lg-right">
+                                    <ul class="nav navbar-nav float-lg-right">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -117,9 +117,9 @@ EOF;
                             <h3>Actived menu in dropdown menu</h3>
 <?php
                             $navbar_responsive_example = <<<EOF
-                            <nav class="navbar %NAVBAR_CLASS% m-b-1">
+                            <nav class="navbar %NAVBAR_CLASS% mb-1">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler pull-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar%EXAMPLE_NUMBER%" aria-controls="exResponsiveActiveInDropdownNavbar%EXAMPLE_NUMBER%" aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar%EXAMPLE_NUMBER%" aria-controls="exResponsiveActiveInDropdownNavbar%EXAMPLE_NUMBER%" aria-expanded="false" aria-label="Toggle navigation">
                                     &#9776;
                                 </button>
                                 <div class="clearfix hidden-lg-up"></div>
@@ -143,7 +143,7 @@ EOF;
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav pull-lg-right">
+                                    <ul class="nav navbar-nav float-lg-right">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -172,12 +172,11 @@ EOF;
                         <div class="example-block">
 <?php
                             $navbar_collapsible_example = <<<EOF
-                            <nav class="navbar %NAVBAR_CLASS% m-b-1">
+                            <nav class="navbar %NAVBAR_CLASS% mb-1">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar%EXAMPLE_NUMBER%" aria-controls="exCollapsingNavbar%EXAMPLE_NUMBER%" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
                                 </button>
                                 <div id="exCollapsingNavbar%EXAMPLE_NUMBER%" class="collapse">
-                                    <div class="%EXPANDED_AREA_CLASS% p-a-1">
+                                    <div class="%EXPANDED_AREA_CLASS% pa-1 p-1">
                                         <h4>Collapsed content</h4>
                                         <div class="row">
                                             <div class="col-xs-6">
@@ -201,18 +200,18 @@ EOF;
 
 EOF;
                             $color_schemes = [
-                                0 => ['navbar_class' => 'navbar-light bg-faded', 'expanded_area_class' => 'bg-inverse'],
-                                1 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-inverse'],
-                                2 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-danger'],
+                                0 => ['navbar_class' => 'navbar-light bg-faded', 'expanded_area_class' => 'bg-inverse text-muted'],
+                                1 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-inverse text-muted'],
+                                2 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-danger text-muted'],
                                 3 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-info'],
-                                4 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-primary'],
-                                5 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-success'],
+                                4 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-primary text-white'],
+                                5 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-success text-muted'],
                                 6 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-warning'],
-                                7 => ['navbar_class' => 'navbar-dark bg-danger', 'expanded_area_class' => 'bg-inverse'],
-                                8 => ['navbar_class' => 'navbar-dark bg-info', 'expanded_area_class' => 'bg-inverse'],
-                                9 => ['navbar_class' => 'navbar-dark bg-primary', 'expanded_area_class' => 'bg-inverse'],
-                                10 => ['navbar_class' => 'navbar-dark bg-success', 'expanded_area_class' => 'bg-inverse'],
-                                11 => ['navbar_class' => 'navbar-dark bg-warning', 'expanded_area_class' => 'bg-inverse'],
+                                7 => ['navbar_class' => 'navbar-dark bg-danger', 'expanded_area_class' => 'bg-inverse text-muted'],
+                                8 => ['navbar_class' => 'navbar-dark bg-info', 'expanded_area_class' => 'bg-inverse text-muted'],
+                                9 => ['navbar_class' => 'navbar-dark bg-primary', 'expanded_area_class' => 'bg-inverse text-muted'],
+                                10 => ['navbar_class' => 'navbar-dark bg-success', 'expanded_area_class' => 'bg-inverse text-muted'],
+                                11 => ['navbar_class' => 'navbar-dark bg-warning', 'expanded_area_class' => 'bg-inverse text-muted'],
                             ];
                             $i = 1;
                             foreach ($color_schemes as $item) {

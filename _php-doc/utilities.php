@@ -5,9 +5,9 @@
             <div class="container">
                 <div class="row">
                     <article class="col-xs-12">
-                        <header class="m-b-1 m-t-2">
-                            <h1 class="m-y-0">Utilities</h1>
-                            <hr class="m-b-0 m-t-1">
+                        <header class="mb-1 mt-2">
+                            <h1 class="my-0">Utilities</h1>
+                            <hr class="mb-0 mt-1">
                         </header>
 
                         <h2>Text alignment</h2>
@@ -73,7 +73,8 @@
                             <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula. เฟิร์มอีสต์โอวัลตินโลโก้ เอ็นเตอร์เทน.</p>
                             <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna. แอสเตอร์พรีเมียร์เสือโคร่งเชฟ เซ็กซ์โค้กแตงโม.</p>
                             <p class="text-warning">Etiam porta sem malesuada magna mollis euismod. เพรสมาเฟียโชว์รูมไทยแลนด์แฟ็กซ์ สลัมโฮม.</p>
-                            <p class="text-danger m-b-0">Donec ullamcorper nulla non metus auctor fringilla. เอ๋คอนโดมาร์เก็ตติ้งดิกชันนารี สะกอมไวกิ้งคัตเอาต์.</p>
+                            <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla. เอ๋คอนโดมาร์เก็ตติ้งดิกชันนารี สะกอมไวกิ้งคัตเอาต์.</p>
+                            <p class="text-white mb-0">Etiam porta sem malesuada ultricies vehicula. เพรสมาเฟียโชว์รูมไทยแลนด์แฟ็กซ์ สลัมโฮม.</p>
                         </div>
                         <h3>On links</h3>
                         <div class="example-block">
@@ -86,12 +87,13 @@
                         </div>
                         <h3>Background colors</h3>
                         <div class="example-block">
-                            <p class="bg-primary">Nullam id dolor id nibh ultricies vehicula ut id elit. ว้อยอาร์พีจี ไงออร์เดอร์คีตปฏิภาณดยุค.</p>
-                            <p class="bg-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula. เวิร์กดยุคนายแบบยูโรฮีโร่.</p>
-                            <p class="bg-info">Maecenas sed diam eget risus varius blandit sit amet non magna. เฟิร์มอีสต์โอวัลตินโลโก้ เอ็นเตอร์เทน.</p>
-                            <p class="bg-warning">Etiam porta sem malesuada magna mollis euismod. แอสเตอร์พรีเมียร์เสือโคร่งเชฟ เซ็กซ์โค้กแตงโม.</p>
-                            <p class="bg-danger">Donec ullamcorper nulla non metus auctor fringilla. เพรสมาเฟียโชว์รูมไทยแลนด์แฟ็กซ์ สลัมโฮม.</p>
-                            <p class="bg-inverse m-b-0">Cras mattis consectetur purus sit amet fermentum. เอ๋คอนโดมาร์เก็ตติ้งดิกชันนารี สะกอมไวกิ้งคัตเอาต์.</p>
+                            <p class="bg-primary text-white">Nullam id dolor id nibh ultricies vehicula ut id elit. ว้อยอาร์พีจี ไงออร์เดอร์คีตปฏิภาณดยุค.</p>
+                            <p class="bg-success text-white">Duis mollis, est non commodo luctus, nisi erat porttitor ligula. เวิร์กดยุคนายแบบยูโรฮีโร่.</p>
+                            <p class="bg-info text-white">Maecenas sed diam eget risus varius blandit sit amet non magna. เฟิร์มอีสต์โอวัลตินโลโก้ เอ็นเตอร์เทน.</p>
+                            <p class="bg-warning text-white">Etiam porta sem malesuada magna mollis euismod. แอสเตอร์พรีเมียร์เสือโคร่งเชฟ เซ็กซ์โค้กแตงโม.</p>
+                            <p class="bg-danger text-white">Donec ullamcorper nulla non metus auctor fringilla. เพรสมาเฟียโชว์รูมไทยแลนด์แฟ็กซ์ สลัมโฮม.</p>
+                            <p class="bg-inverse text-white">Cras mattis consectetur purus sit amet fermentum. เอ๋คอนโดมาร์เก็ตติ้งดิกชันนารี สะกอมไวกิ้งคัตเอาต์.</p>
+                            <p class="bg-faded mb-0">Cras mattis consectetur purus sit amet fermentum. แอสเตอร์พรีเมียร์เสือโคร่งเชฟ เซ็กซ์โค้กแตงโม.</p>
                         </div>
 
                         <h2>Responsive embeds</h2>

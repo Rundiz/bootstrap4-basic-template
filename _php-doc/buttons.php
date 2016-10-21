@@ -5,9 +5,9 @@
             <div class="container">
                 <div class="row">
                     <article class="col-xs-12">
-                        <header class="m-b-1 m-t-2">
-                            <h1 class="m-y-0">Buttons</h1>
-                            <hr class="m-b-0 m-t-1">
+                        <header class="mb-1 mt-2">
+                            <h1 class="my-0">Buttons</h1>
+                            <hr class="mb-0 mt-1">
                         </header>
 
                         <h2>Basic buttons</h2>

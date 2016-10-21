@@ -5,14 +5,14 @@
             <div class="container">
                 <div class="row">
                     <article class="col-xs-12">
-                        <header class="m-b-1 m-t-2">
-                            <h1 class="m-y-0">List group</h1>
-                            <hr class="m-b-0 m-t-1">
+                        <header class="mb-1 mt-2">
+                            <h1 class="my-0">List group</h1>
+                            <hr class="mb-0 mt-1">
                         </header>
 
                         <h2>Basic example</h2>
                         <div class="example-block">
-                            <ul class="list-group m-b-1">
+                            <ul class="list-group mb-1">
                                 <li class="list-group-item">Cras justo odio</li>
                                 <li class="list-group-item">Dapibus ac facilisis in</li>
                                 <li class="list-group-item">Morbi leo risus</li>
@@ -30,31 +30,31 @@
 
                         <h2>Tags</h2>
                         <div class="example-block">
-                            <ul class="list-group m-b-1">
+                            <ul class="list-group mb-1">
                                 <li class="list-group-item">
-                                    <span class="tag tag-default tag-pill pull-xs-right">14</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">14</span>
                                     Cras justo odio
                                 </li>
                                 <li class="list-group-item">
-                                    <span class="tag tag-default tag-pill pull-xs-right">2</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">2</span>
                                     Dapibus ac facilisis in
                                 </li>
                                 <li class="list-group-item">
-                                    <span class="tag tag-default tag-pill pull-xs-right">1</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">1</span>
                                     Morbi leo risus
                                 </li>
                             </ul>
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    <span class="tag tag-default tag-pill pull-xs-right">14</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">14</span>
                                     แทคติคซิ้มสป็อต เจลรีโมต
                                 </li>
                                 <li class="list-group-item">
-                                    <span class="tag tag-default tag-pill pull-xs-right">2</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">2</span>
                                     เอนทรานซ์ โชห่วย
                                 </li>
                                 <li class="list-group-item">
-                                    <span class="tag tag-default tag-pill pull-xs-right">1</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">1</span>
                                     สตรอว์เบอร์รีโมเดลวีเจแบค
                                 </li>
                             </ul>
@@ -65,36 +65,36 @@
                             <div class="list-group">
                                 <h5 class="list-group-item">Anchors</h5>
                                 <a class="list-group-item list-group-item-action disabled" href="#">
-                                    <span class="tag tag-default tag-pill pull-xs-right">14</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">14</span>
                                     Cras justo odio
                                 </a>
                                 <a class="list-group-item" href="#">
-                                    <span class="tag tag-default tag-pill pull-xs-right">2</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">2</span>
                                     Dapibus ac facilisis in (without .list-group-item-action class)
                                 </a>
                                 <a class="list-group-item list-group-item-action" href="#">
-                                    <span class="tag tag-default tag-pill pull-xs-right">1</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">1</span>
                                     Morbi leo risus
                                 </a>
                                 <a class="list-group-item list-group-item-action active" href="#">
-                                    <span class="tag tag-default tag-pill pull-xs-right">4</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">4</span>
                                     Porta ac consectetur ac
                                 </a>
                                 <h5 class="list-group-item">Buttons</h5>
                                 <button class="list-group-item list-group-item-action disabled" type="button">
-                                    <span class="tag tag-default tag-pill pull-xs-right">14</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">14</span>
                                     Cras justo odio
                                 </button>
                                 <button class="list-group-item list-group-item-action" type="button">
-                                    <span class="tag tag-default tag-pill pull-xs-right">2</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">2</span>
                                     Dapibus ac facilisis in
                                 </button>
                                 <button class="list-group-item list-group-item-action" type="button">
-                                    <span class="tag tag-default tag-pill pull-xs-right">1</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">1</span>
                                     Morbi leo risus
                                 </button>
                                 <button class="list-group-item list-group-item-action active" type="button">
-                                    <span class="tag tag-default tag-pill pull-xs-right">4</span>
+                                    <span class="tag tag-default tag-pill float-xs-right">4</span>
                                     Vestibulum at eros
                                 </button>
                             </div>

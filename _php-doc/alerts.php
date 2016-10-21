@@ -5,9 +5,9 @@
             <div class="container">
                 <div class="row">
                     <article class="col-xs-12">
-                        <header class="m-b-1 m-t-2">
-                            <h1 class="m-y-0">Alerts</h1>
-                            <hr class="m-b-0 m-t-1">
+                        <header class="mb-1 mt-2">
+                            <h1 class="my-0">Alerts</h1>
+                            <hr class="mb-0 mt-1">
                         </header>
 
                         <h2>Examples</h2>
@@ -51,12 +51,12 @@
                             <div class="alert alert-success" role="alert">
                                 <h4 class="alert-heading">Well done!</h4>
                                 <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-                                <p class="m-b-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
                             </div>
                             <div class="alert alert-success" role="alert">
                                 <h4 class="alert-heading">สุกี้ปารุสก์ คอมไพเลอร์!</h4>
                                 <p>โมเด็มโดเมนลอสแองเจลิสโฟลเดอร์ศรีษะ กำมือโอริยาโกลกาตา นงลักษณ์โรมาเนีย มาดริด ทนงแช็ตศรีษะทัชแพด. กีวีคลีนิคยูไลพากษ์ กงเต็กกันยายนกบิลพัสดุ์โพรเซสโพรโทคอล.</p>
-                                <p class="m-b-0">แปซิฟิกอัพโหลดมือถืออินเดีย บราวเซอร์ คัตเอาต์ เตลุคูคอมไพเลอร์ แฮ็กเกอร์จ็อบส์อัสสัม.</p>
+                                <p class="mb-0">แปซิฟิกอัพโหลดมือถืออินเดีย บราวเซอร์ คัตเอาต์ เตลุคูคอมไพเลอร์ แฮ็กเกอร์จ็อบส์อัสสัม.</p>
                             </div>
                         </div>
                     </article>

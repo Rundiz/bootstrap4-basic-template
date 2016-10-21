@@ -5,9 +5,9 @@
             <div class="container">
                 <div class="row">
                     <article class="col-xs-12">
-                        <header class="m-b-1 m-t-2">
-                            <h1 class="m-y-0">Typography</h1>
-                            <hr class="m-b-0 m-t-1">
+                        <header class="mb-1 mt-2">
+                            <h1 class="my-0">Typography</h1>
+                            <hr class="mb-0 mt-1">
                         </header>
 
                         <h2>Headings</h2>
@@ -84,11 +84,11 @@
                                 <p>This is blockquote without class and paragraph in the quote also without class.</p>
                             </blockquote>
                             <blockquote class="blockquote">
-                                <p class="m-b-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                 <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                             </blockquote>
                             <blockquote class="blockquote">
-                                <p class="m-b-0">สไลด์โดนัทละติน ธรรมาเมี่ยงคำซิมโฟนีเวณิกาไตรมาส ป๋าไตรมาสพาสเจอร์ไรส์ธรรมา</p>
+                                <p class="mb-0">สไลด์โดนัทละติน ธรรมาเมี่ยงคำซิมโฟนีเวณิกาไตรมาส ป๋าไตรมาสพาสเจอร์ไรส์ธรรมา</p>
                                 <footer class="blockquote-footer">ฟินิกซ์แครอทเทรดด็อกเตอร์โนติส <cite title="Source Title">เกมส์ฮิบรู</cite></footer>
                             </blockquote>
                         </div>
