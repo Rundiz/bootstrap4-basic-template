@@ -4,10 +4,10 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Tables</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Basic table</h2>
@@ -42,7 +42,7 @@
                         </div>
                         <h3>Basic invert table</h3>
                         <div class="example-block">
-                            <table class="table table-inverse">
+                            <table class="table table-dark">
                                 <thead>
                                     <tr>
                                         <th>#</th>
@@ -73,7 +73,7 @@
                         <h4>Basic table head</h4>
                         <div class="example-block">
                             <table class="table">
-                                <thead class="thead-default">
+                                <thead class="thead-light">
                                     <tr>
                                         <th>#</th>
                                         <th>English</th>
@@ -102,7 +102,7 @@
                         <h4>Invert table head</h4>
                         <div class="example-block">
                             <table class="table">
-                                <thead class="thead-inverse">
+                                <thead class="thead-dark">
                                     <tr>
                                         <th>#</th>
                                         <th>English</th>
@@ -161,7 +161,7 @@
                         </div>
                         <h3>Invert striped</h3>
                         <div class="example-block">
-                            <table class="table table-striped table-inverse">
+                            <table class="table table-striped table-dark">
                                 <thead>
                                     <tr>
                                         <th>#</th>
@@ -221,7 +221,67 @@
                         </div>
                         <h3>Invert bordered</h3>
                         <div class="example-block">
-                            <table class="table table-bordered table-inverse">
+                            <table class="table table-bordered table-dark">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h2>Borderless tables</h2>
+                        <h3>Basic</h3>
+                        <div class="example-block">
+                            <table class="table table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>English</th>
+                                        <th>ไทย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem ipsum</td>
+                                        <td>สไลด์โดนัทละติน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Donec commodo</td>
+                                        <td>วันเวย์สเตเดียม</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Interdum et malesuada</td>
+                                        <td>ไตรมาส ฟรุตซังเตบอมบ์</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3>Invert</h3>
+                        <div class="example-block">
+                            <table class="table table-borderless table-dark">
                                 <thead>
                                     <tr>
                                         <th>#</th>
@@ -281,7 +341,7 @@
                         </div>
                         <h3>Invert hoverable</h3>
                         <div class="example-block">
-                            <table class="table table-hover table-inverse">
+                            <table class="table table-hover table-dark">
                                 <thead>
                                     <tr>
                                         <th>#</th>
@@ -341,7 +401,7 @@
                         </div>
                         <h3>Invert small table</h3>
                         <div class="example-block">
-                            <table class="table table-sm table-inverse">
+                            <table class="table table-sm table-dark">
                                 <thead>
                                     <tr>
                                         <th>#</th>
@@ -391,6 +451,16 @@
                                         <td>Donec commodo</td>
                                         <td>วันเวย์สเตเดียม</td>
                                     </tr>
+                                    <tr class="table-primary">
+                                        <th scope="row">2</th>
+                                        <td>Primary</td>
+                                        <td>ไพรมารี</td>
+                                    </tr>
+                                    <tr class="table-secondary">
+                                        <th scope="row">2</th>
+                                        <td>Secondary</td>
+                                        <td>เซคันดารี่</td>
+                                    </tr>
                                     <tr class="table-success">
                                         <th scope="row">3</th>
                                         <td>Interdum et malesuada</td>
@@ -432,11 +502,11 @@
                                     </tr>
                                     <tr>
                                         <th class="table-danger" scope="row">2</th>
-                                        <td>Donec commodo</td>
+                                        <td class="table-primary">Donec commodo</td>
                                         <td class="table-success">วันเวย์สเตเดียม</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">3</th>
+                                        <th class="table-secondary" scope="row">3</th>
                                         <td class="table-info">Interdum et malesuada</td>
                                         <td class="table-warning">ไตรมาส ฟรุตซังเตบอมบ์</td>
                                     </tr>
@@ -489,7 +559,7 @@
                         </div>
                         <h3>Background on rows for invert table</h3>
                         <div class="example-block">
-                            <table class="table table-inverse">
+                            <table class="table table-dark">
                                 <thead>
                                     <tr>
                                         <th>#</th>
@@ -553,7 +623,7 @@
                                         <td class="bg-success">วันเวย์สเตเดียม</td>
                                     </tr>
                                     <tr>
-                                        <th class="bg-inverse" scope="row">3</th>
+                                        <th class="bg-dark" scope="row">3</th>
                                         <td class="bg-info">Interdum et malesuada</td>
                                         <td class="bg-warning">ไตรมาส ฟรุตซังเตบอมบ์</td>
                                     </tr>
@@ -607,52 +677,6 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
-
-                        <h2>Reflow table</h2>
-                        <div class="example-block">
-                            <table class="table table-reflow">
-                                <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Table heading</th>
-                                        <th>Table heading</th>
-                                        <th>Table heading</th>
-                                        <th>Table heading</th>
-                                        <th>Table heading</th>
-                                        <th>Table heading</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                        <td>Table cell</td>
-                                    </tr>
-                                </tbody>
-                            </table>
                         </div>
                     </article>
                 </div>

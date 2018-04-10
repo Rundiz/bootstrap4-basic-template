@@ -4,10 +4,10 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Utilities</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Text alignment</h2>
@@ -22,15 +22,15 @@
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt lorem ultricies congue sollicitudin. Suspendisse non eleifend lectus.
                                 วาฟเฟิลแช่แข็งอุปทานแมชชีน แซมบ้า ไทม์ โฮสเตสช็อคแบตแคร์ ยะเยือกแบล็กแก๊สโซฮอล์ ชัตเตอร์.
                             </p>
-                            <p class="text-xs-left">
+                            <p class="text-left">
                                 <strong>Left aligned text on all viewport sizes.</strong> 
                                 จัดเรียงทางซ้าย.
                             </p>
-                            <p class="text-xs-center">
+                            <p class="text-center">
                                 <strong>Center aligned text on all viewport sizes.</strong> 
                                 จัดเรียงตรงกลาง.
                             </p>
-                            <p class="text-xs-right">
+                            <p class="text-right">
                                 <strong>Right aligned text on all viewport sizes.</strong> 
                                 จัดเรียงทางขวา.
                             </p>
@@ -70,11 +70,13 @@
                         <div class="example-block">
                             <p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh. ว้อยอาร์พีจี ไงออร์เดอร์คีตปฏิภาณดยุค.</p>
                             <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit. เวิร์กดยุคนายแบบยูโรฮีโร่.</p>
+                            <p class="text-secondary">Donec ullamcorper nulla non metus auctor fringilla. เอ๋คอนโดมาร์เก็ตติ้งดิกชันนารี สะกอมไวกิ้งคัตเอาต์.</p>
                             <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula. เฟิร์มอีสต์โอวัลตินโลโก้ เอ็นเตอร์เทน.</p>
                             <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna. แอสเตอร์พรีเมียร์เสือโคร่งเชฟ เซ็กซ์โค้กแตงโม.</p>
                             <p class="text-warning">Etiam porta sem malesuada magna mollis euismod. เพรสมาเฟียโชว์รูมไทยแลนด์แฟ็กซ์ สลัมโฮม.</p>
                             <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla. เอ๋คอนโดมาร์เก็ตติ้งดิกชันนารี สะกอมไวกิ้งคัตเอาต์.</p>
-                            <p class="text-white mb-0">Etiam porta sem malesuada ultricies vehicula. เพรสมาเฟียโชว์รูมไทยแลนด์แฟ็กซ์ สลัมโฮม.</p>
+                            <p class="text-white bg-dark">Etiam porta sem malesuada ultricies vehicula. เพรสมาเฟียโชว์รูมไทยแลนด์แฟ็กซ์ สลัมโฮม.</p>
+                            <p class="text-light bg-dark mb-0">Duis mollis, est non commodo luctus, nisi erat porttitor ligula. เฟิร์มอีสต์โอวัลตินโลโก้ เอ็นเตอร์เทน.</p>
                         </div>
                         <h3>On links</h3>
                         <div class="example-block">
@@ -92,7 +94,7 @@
                             <p class="bg-info text-white">Maecenas sed diam eget risus varius blandit sit amet non magna. เฟิร์มอีสต์โอวัลตินโลโก้ เอ็นเตอร์เทน.</p>
                             <p class="bg-warning text-white">Etiam porta sem malesuada magna mollis euismod. แอสเตอร์พรีเมียร์เสือโคร่งเชฟ เซ็กซ์โค้กแตงโม.</p>
                             <p class="bg-danger text-white">Donec ullamcorper nulla non metus auctor fringilla. เพรสมาเฟียโชว์รูมไทยแลนด์แฟ็กซ์ สลัมโฮม.</p>
-                            <p class="bg-inverse text-white">Cras mattis consectetur purus sit amet fermentum. เอ๋คอนโดมาร์เก็ตติ้งดิกชันนารี สะกอมไวกิ้งคัตเอาต์.</p>
+                            <p class="bg-dark text-white">Cras mattis consectetur purus sit amet fermentum. เอ๋คอนโดมาร์เก็ตติ้งดิกชันนารี สะกอมไวกิ้งคัตเอาต์.</p>
                             <p class="bg-faded mb-0">Cras mattis consectetur purus sit amet fermentum. แอสเตอร์พรีเมียร์เสือโคร่งเชฟ เซ็กซ์โค้กแตงโม.</p>
                         </div>
 

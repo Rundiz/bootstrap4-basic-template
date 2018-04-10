@@ -13,16 +13,15 @@
 
     <body> 
         <main class="content-wrap">
-            <nav class="navbar navbar-light bg-faded">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="./">BS4 Basic template</a>
-                    <button class="navbar-toggler float-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                        &#9776;
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="clearfix hidden-sm-up"></div>
 
-                    <div class="collapse navbar-toggleable-xs" id="bs4-navbar-collapse">
-                        <ul class="nav navbar-nav">
+                    <div class="collapse navbar-collapse" id="bs4-navbar-collapse">
+                        <ul class="navbar-nav">
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layout</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-item"><a class="nav-link" href="media-object.html">Media object</a></li>
@@ -40,6 +39,7 @@
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-item"><a class="nav-link" href="alerts.html">Alerts</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="badge.html">Badge</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="breadcrumb.html">Breadcrumb</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="buttons.html">Buttons</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="button-group.html">Button group</a></li>
@@ -57,7 +57,6 @@
                                     <li class="dropdown-item"><a class="nav-link" href="pagination.html">Pagination</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="popovers.html">Popovers</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="progress.html">Progress</a></li>
-                                    <li class="dropdown-item"><a class="nav-link" href="tag.html">Tag</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="tooltips.html">Tooltips</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="utilities.html">Utilities</a></li>
                                 </ul>
@@ -71,10 +70,10 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Navs</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Base nav</h2>
@@ -101,15 +100,15 @@
                             </nav>
                         </div>
 
-                        <h2>Inline</h2>
+                        <h2>Vertical alignment</h2>
                         <div class="example-block">
-                            <ul class="nav nav-inline">
+                            <ul class="nav flex-column">
                                 <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                 <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
                             </ul>
                             <hr>
-                            <nav class="nav nav-inline">
+                            <nav class="nav flex-column">
                                 <a class="nav-link active" href="#">แอ็คทีฟ</a>
                                 <a class="nav-link" href="#">ลิ้งค์</a>
                                 <a class="nav-link disabled" href="#">ปิดใช้งาน</a>
@@ -170,40 +169,6 @@
                             </ul>
                             <hr>
                             <ul class="nav nav-pills">
-                                <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ดรอปดาวน์</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">การกระทำ</a>
-                                        <a class="dropdown-item" href="#">การกระทำอื่นๆ</a>
-                                        <a class="dropdown-item" href="#">บางอย่างที่นี่</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">ลิ้งค์แยก</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <h3>Stacked pills</h3>
-                        <div class="example-block">
-                            <ul class="nav nav-pills nav-stacked">
-                                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Separated link</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <hr>
-                            <ul class="nav nav-pills nav-stacked">
                                 <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
                                 <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
@@ -318,7 +283,7 @@
 
         <footer class="footer-wrap">
             <div class="container">
-                <div class="col-xs-12">
+                <div class="col-12">
                     <p>&copy; <a href="https://github.com/Rundiz/bootstrap4-basic-template" target="rundiz_bs4_bt">rundiz - Bootstrap 4 Basic template</a>.</p>
                 </div>
             </div>
@@ -326,8 +291,7 @@
 
 
         <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/tether.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html> 

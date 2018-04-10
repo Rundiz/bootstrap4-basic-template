@@ -4,10 +4,10 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Dropdowns</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Basic example</h2>
@@ -58,14 +58,14 @@
                                         </button>
                                         <ul class="dropdown-menu dropdown-menu-always-show" aria-labelledby="dropdownMenu3">
                                             <li class="dropdown-header">Dropdown header</li>
-                                            <li class="dropdown-item"><a href="#">Action</a></li>
-                                            <li class="dropdown-item"><a href="#">Another action</a></li>
-                                            <li class="dropdown-item"><a href="#">Something else here</a></li>
-                                            <li class="dropdown-item active"><a href="#">Active item</a></li>
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li><a class="dropdown-item active" href="#">Active item</a></li>
                                             <li class="dropdown-divider"></li>
                                             <li class="dropdown-header">หัวข้อภาษาไทย</li>
-                                            <li class="dropdown-item"><a href="#">ลิ้งค์ภาษาไทย</a></li>
-                                            <li class="dropdown-item disabled"><a href="#">ลิ้งค์ปิดใช้งาน</a></li>
+                                            <li><a class="dropdown-item" href="#">ลิ้งค์ภาษาไทย</a></li>
+                                            <li><a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -149,6 +149,34 @@
                                     Danger
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenu9">
+                                    <h6 class="dropdown-header">Dropdown header</h6>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item active" href="#">Active item</a>
+                                    <div class="dropdown-divider"></div>
+                                    <h6 class="dropdown-header">หัวข้อภาษาไทย</h6>
+                                    <a class="dropdown-item" href="#">ลิ้งค์ภาษาไทย</a>
+                                    <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dark
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu10">
+                                    <h6 class="dropdown-header">Dropdown header</h6>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item active" href="#">Active item</a>
+                                    <div class="dropdown-divider"></div>
+                                    <h6 class="dropdown-header">หัวข้อภาษาไทย</h6>
+                                    <a class="dropdown-item" href="#">ลิ้งค์ภาษาไทย</a>
+                                    <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Light
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu11">
                                     <h6 class="dropdown-header">Dropdown header</h6>
                                     <a class="dropdown-item" href="#">Action</a>
                                     <a class="dropdown-item active" href="#">Active item</a>
@@ -469,6 +497,9 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!--bottom space for drop down-->
+                        <div style="height: 900px;"></div>
                     </article>
                 </div>
             </div>

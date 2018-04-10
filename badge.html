@@ -13,16 +13,15 @@
 
     <body> 
         <main class="content-wrap">
-            <nav class="navbar navbar-light bg-faded">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="./">BS4 Basic template</a>
-                    <button class="navbar-toggler float-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                        &#9776;
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="clearfix hidden-sm-up"></div>
 
-                    <div class="collapse navbar-toggleable-xs" id="bs4-navbar-collapse">
-                        <ul class="nav navbar-nav">
+                    <div class="collapse navbar-collapse" id="bs4-navbar-collapse">
+                        <ul class="navbar-nav">
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layout</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-item"><a class="nav-link" href="media-object.html">Media object</a></li>
@@ -40,6 +39,7 @@
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-item"><a class="nav-link" href="alerts.html">Alerts</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="badge.html">Badge</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="breadcrumb.html">Breadcrumb</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="buttons.html">Buttons</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="button-group.html">Button group</a></li>
@@ -57,7 +57,6 @@
                                     <li class="dropdown-item"><a class="nav-link" href="pagination.html">Pagination</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="popovers.html">Popovers</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="progress.html">Progress</a></li>
-                                    <li class="dropdown-item"><a class="nav-link" href="tag.html">Tag</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="tooltips.html">Tooltips</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="utilities.html">Utilities</a></li>
                                 </ul>
@@ -71,59 +70,59 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
-                            <h1 class="my-0">Tag</h1>
-                            <hr class="mb-0 mt-1">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
+                            <h1 class="my-0">Badge</h1>
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Example</h2>
                         <div class="example-block">
-                            <h1>Example heading <span class="tag tag-default">New</span></h1>
-                            <h2>Example heading <span class="tag tag-default">New</span></h2>
-                            <h3>Example heading <span class="tag tag-default">New</span></h3>
-                            <h4>Example heading <span class="tag tag-default">New</span></h4>
-                            <h5>Example heading <span class="tag tag-default">New</span></h5>
-                            <h6>Example heading <span class="tag tag-default">New</span></h6>
+                            <h1>Example heading <span class="badge badge-secondary">New</span></h1>
+                            <h2>Example heading <span class="badge badge-secondary">New</span></h2>
+                            <h3>Example heading <span class="badge badge-secondary">New</span></h3>
+                            <h4>Example heading <span class="badge badge-secondary">New</span></h4>
+                            <h5>Example heading <span class="badge badge-secondary">New</span></h5>
+                            <h6>Example heading <span class="badge badge-secondary">New</span></h6>
                         </div>
 
                         <h2>Contextual variations</h2>
                         <div class="example-block">
                             <p>
-                                <span class="tag tag-default">Default</span>
-                                <span class="tag tag-primary">Primary</span>
-                                <span class="tag tag-success">Success</span>
-                                <span class="tag tag-info">Info</span>
-                                <span class="tag tag-warning">Warning</span>
-                                <span class="tag tag-danger">Danger</span>
+                                <span class="badge badge-secondary">Default</span>
+                                <span class="badge badge-primary">Primary</span>
+                                <span class="badge badge-success">Success</span>
+                                <span class="badge badge-info">Info</span>
+                                <span class="badge badge-warning">Warning</span>
+                                <span class="badge badge-danger">Danger</span>
                             </p>
                             <p>
-                                <span class="tag tag-default">ค่าเดิม</span>
-                                <span class="tag tag-primary">ขั้นแรก</span>
-                                <span class="tag tag-success">สำเร็จ</span>
-                                <span class="tag tag-info">ข้อมูล</span>
-                                <span class="tag tag-warning">เตือน</span>
-                                <span class="tag tag-danger">อันตราย</span>
+                                <span class="badge badge-secondary">รอง</span>
+                                <span class="badge badge-primary">ขั้นแรก</span>
+                                <span class="badge badge-success">สำเร็จ</span>
+                                <span class="badge badge-info">ข้อมูล</span>
+                                <span class="badge badge-warning">เตือน</span>
+                                <span class="badge badge-danger">อันตราย</span>
                             </p>
                         </div>
 
-                        <h2>Pill tags</h2>
+                        <h2>Pill badges</h2>
                         <div class="example-block">
                             <p>
-                                <span class="tag tag-pill tag-default">Default</span>
-                                <span class="tag tag-pill tag-primary">Primary</span>
-                                <span class="tag tag-pill tag-success">Success</span>
-                                <span class="tag tag-pill tag-info">Info</span>
-                                <span class="tag tag-pill tag-warning">Warning</span>
-                                <span class="tag tag-pill tag-danger">Danger</span>
+                                <span class="badge badge-pill badge-secondary">Default</span>
+                                <span class="badge badge-pill badge-primary">Primary</span>
+                                <span class="badge badge-pill badge-success">Success</span>
+                                <span class="badge badge-pill badge-info">Info</span>
+                                <span class="badge badge-pill badge-warning">Warning</span>
+                                <span class="badge badge-pill badge-danger">Danger</span>
                             </p>
                             <p>
-                                <span class="tag tag-pill tag-default">ค่าเดิม</span>
-                                <span class="tag tag-pill tag-primary">ขั้นแรก</span>
-                                <span class="tag tag-pill tag-success">สำเร็จ</span>
-                                <span class="tag tag-pill tag-info">ข้อมูล</span>
-                                <span class="tag tag-pill tag-warning">เตือน</span>
-                                <span class="tag tag-pill tag-danger">อันตราย</span>
+                                <span class="badge badge-pill badge-secondary">รอง</span>
+                                <span class="badge badge-pill badge-primary">ขั้นแรก</span>
+                                <span class="badge badge-pill badge-success">สำเร็จ</span>
+                                <span class="badge badge-pill badge-info">ข้อมูล</span>
+                                <span class="badge badge-pill badge-warning">เตือน</span>
+                                <span class="badge badge-pill badge-danger">อันตราย</span>
                             </p>
                         </div>
                     </article>
@@ -133,7 +132,7 @@
 
         <footer class="footer-wrap">
             <div class="container">
-                <div class="col-xs-12">
+                <div class="col-12">
                     <p>&copy; <a href="https://github.com/Rundiz/bootstrap4-basic-template" target="rundiz_bs4_bt">rundiz - Bootstrap 4 Basic template</a>.</p>
                 </div>
             </div>
@@ -141,8 +140,7 @@
 
 
         <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/tether.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html> 

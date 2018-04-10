@@ -4,10 +4,10 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Navs</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Base nav</h2>
@@ -34,15 +34,15 @@
                             </nav>
                         </div>
 
-                        <h2>Inline</h2>
+                        <h2>Vertical alignment</h2>
                         <div class="example-block">
-                            <ul class="nav nav-inline">
+                            <ul class="nav flex-column">
                                 <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                 <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
                             </ul>
                             <hr>
-                            <nav class="nav nav-inline">
+                            <nav class="nav flex-column">
                                 <a class="nav-link active" href="#">แอ็คทีฟ</a>
                                 <a class="nav-link" href="#">ลิ้งค์</a>
                                 <a class="nav-link disabled" href="#">ปิดใช้งาน</a>
@@ -103,40 +103,6 @@
                             </ul>
                             <hr>
                             <ul class="nav nav-pills">
-                                <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ดรอปดาวน์</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">การกระทำ</a>
-                                        <a class="dropdown-item" href="#">การกระทำอื่นๆ</a>
-                                        <a class="dropdown-item" href="#">บางอย่างที่นี่</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">ลิ้งค์แยก</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <h3>Stacked pills</h3>
-                        <div class="example-block">
-                            <ul class="nav nav-pills nav-stacked">
-                                <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Separated link</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <hr>
-                            <ul class="nav nav-pills nav-stacked">
                                 <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
                                 <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>

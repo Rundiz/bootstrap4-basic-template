@@ -4,10 +4,10 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Button group</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Basic example</h2>
@@ -30,6 +30,8 @@
                                 <button class="btn btn-info" type="button">Info</button>
                                 <button class="btn btn-warning" type="button">Warning</button>
                                 <button class="btn btn-danger" type="button">Danger</button>
+                                <button class="btn btn-light" type="button">Light</button>
+                                <button class="btn btn-dark" type="button">Dark</button>
                             </div>
                             <div class="btn-group" role="group" aria-label="Basic example">
                                 <button class="btn btn-primary" type="button">ปุ่มหลัก</button>
@@ -37,6 +39,8 @@
                                 <button class="btn btn-info" type="button">ข้อมูล</button>
                                 <button class="btn btn-warning" type="button">เตือน</button>
                                 <button class="btn btn-danger" type="button">อันตราย</button>
+                                <button class="btn btn-light" type="button">สว่าง</button>
+                                <button class="btn btn-dark" type="button">มืด</button>
                             </div>
                         </div>
 
@@ -109,10 +113,10 @@
 
                         <h2>Nesting</h2>
                         <div class="example-block">
-                            <div class="btn-group">
+                            <div class="btn-group" role="group">
                                 <button class="btn btn-secondary" type="button">1</button>
                                 <button class="btn btn-secondary" type="button">2</button>
-                                <div class="btn-group">
+                                <div class="btn-group" role="group">
                                     <button id="btn-group-dropdown1" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Dropdown
                                     </button>
@@ -121,7 +125,7 @@
                                         <li class="dropdown-item"><a href="#">Dropdown link</a></li>
                                     </ul>
                                 </div>
-                                <div class="btn-group">
+                                <div class="btn-group" role="group">
                                     <button id="btn-group-dropdown2" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         ดรอปดาวน์
                                     </button>

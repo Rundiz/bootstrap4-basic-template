@@ -4,10 +4,10 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Forms</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Basic example</h2>
@@ -110,8 +110,8 @@
                             ];
                             foreach ($input_types as $key => $items) {
                                 echo '                            <div class="form-group row">'."\n";
-                                echo '                                <label for="example-input-types-form-control-'.$key.'" class="col-xs-4 col-sm-2 col-form-label">'.ucfirst($key).'</label>'."\n";
-                                echo '                                <div class="col-xs-8 col-sm-10">'."\n";
+                                echo '                                <label for="example-input-types-form-control-'.$key.'" class="col-4 col-sm-2 col-form-label">'.ucfirst($key).'</label>'."\n";
+                                echo '                                <div class="col-8 col-sm-10">'."\n";
                                 echo '                                    <input id="example-input-types-form-control-'.$key.'" class="form-control" type="'.$key.'"';
                                 if (is_array($items)) {
                                     foreach ($items as $item_key => $item_val) {
@@ -133,12 +133,12 @@
                         <div class="example-block">
                             <form class="form-inline">
                                 <div class="form-group">
-                                    <label for="exampleInputName2">Name</label>
-                                    <input id="exampleInputName2" class="form-control" type="text" placeholder="Jane Doe">
+                                    <label class="mr-2" for="exampleInputName2">Name</label>
+                                    <input id="exampleInputName2" class="form-control mr-2" type="text" placeholder="Jane Doe">
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputEmail2">Email</label>
-                                    <input id="exampleInputEmail2" class="form-control" type="email" placeholder="jane.doe@example.com">
+                                    <label class="mr-2" for="exampleInputEmail2">Email</label>
+                                    <input id="exampleInputEmail2" class="form-control mr-2" type="email" placeholder="jane.doe@example.com">
                                 </div>
                                 <button class="btn btn-primary" type="submit">Send invitation</button>
                             </form>
@@ -148,11 +148,11 @@
                             <form class="form-inline">
                                 <div class="form-group">
                                     <label class="sr-only" for="exampleInputName3">Name</label>
-                                    <input id="exampleInputName2" class="form-control" type="text" placeholder="Jane Doe">
+                                    <input id="exampleInputName2" class="form-control mr-2" type="text" placeholder="Jane Doe">
                                 </div>
                                 <div class="form-group">
                                     <label class="sr-only" for="exampleInputEmail3">Email</label>
-                                    <input id="exampleInputEmail2" class="form-control" type="email" placeholder="jane.doe@example.com">
+                                    <input id="exampleInputEmail2" class="form-control mr-2" type="email" placeholder="jane.doe@example.com">
                                 </div>
                                 <button class="btn btn-primary" type="submit">Send invitation</button>
                             </form>
@@ -162,11 +162,11 @@
                             <form class="form-inline">
                                 <div class="form-group">
                                     <label class="sr-only">Email</label>
-                                    <p class="form-control-static">email@example.com</p>
+                                    <p class="form-control-plaintext mr-2">email@example.com</p>
                                 </div>
                                 <div class="form-group">
                                     <label class="sr-only" for="inlineInputPassword1">Password</label>
-                                    <input id="inlineInputPassword1" class="form-control" type="password" placeholder="Password">
+                                    <input id="inlineInputPassword1" class="form-control mr-2" type="password" placeholder="Password">
                                 </div>
                                 <button class="btn btn-primary" type="submit">Confirm identity</button>
                             </form>
@@ -175,8 +175,8 @@
                         <div class="example-block">
                             <form class="form-inline">
                                 <div class="form-group">
-                                    <label for="inlineInputPassword2">Password</label>
-                                    <input id="inlineInputPassword2" class="form-control" type="password" aria-describedby="passwordHelpInline">
+                                    <label class="mr-2" for="inlineInputPassword2">Password</label>
+                                    <input id="inlineInputPassword2" class="form-control mr-2" type="password" aria-describedby="passwordHelpInline">
                                     <small id="passwordHelpInline" class="text-muted">
                                         Must be 8-20 characters long.
                                     </small>
@@ -476,156 +476,68 @@
                                 <div class="form-group row">
                                     <label class="col-form-label col-sm-2">Checkbox inline</label>
                                     <div class="col-sm-10">
-                                        <label class="custom-control custom-checkbox">
-                                            <input class="custom-control-input" type="checkbox">
-                                            <span class="custom-control-indicator"></span>
-                                            <span class="custom-control-description">ติ๊กเลือก 1</span>
-                                        </label>
-                                        <label class="custom-control custom-checkbox">
-                                            <input class="custom-control-input" type="checkbox">
-                                            <span class="custom-control-indicator"></span>
-                                            <span class="custom-control-description">Check box 2</span>
-                                        </label>
-                                        <label class="custom-control custom-checkbox">
-                                            <input class="custom-control-input" type="checkbox" disabled>
-                                            <span class="custom-control-indicator"></span>
-                                            <span class="custom-control-description">Check box 3 disabled</span>
-                                        </label>
-                                        <label class="custom-control custom-checkbox">
-                                            <input class="custom-control-input checkbox-indeterminate" type="checkbox">
-                                            <span class="custom-control-indicator"></span>
-                                            <span class="custom-control-description">Check box 4 indeterminate</span>
-                                        </label>
+                                        <div class="custom-control custom-checkbox custom-control-inline">
+                                            <input id="customCheck1" class="custom-control-input" type="checkbox">
+                                            <label class="custom-control-label" for="customCheck1">ติ๊กเลือก 1</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox custom-control-inline">
+                                            <input id="customCheck2" class="custom-control-input" type="checkbox">
+                                            <label class="custom-control-label" for="customCheck2">Check box 2</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox custom-control-inline">
+                                            <input id="customCheck3" class="custom-control-input" type="checkbox" disabled="">
+                                            <label class="custom-control-label" for="customCheck3">Check box 3 disabled</label>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label class="col-form-label col-sm-2">Checkbox stacked</label>
                                     <div class="col-sm-10">
-                                        <div class="custom-controls-stacked">
-                                            <label class="custom-control custom-checkbox">
-                                                <input class="custom-control-input" type="checkbox">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">ติ๊กเลือก 1</span>
-                                            </label>
+                                        <div class="custom-control custom-checkbox">
+                                            <input id="customCheck4" class="custom-control-input" type="checkbox">
+                                            <label class="custom-control-label" for="customCheck4">ติ๊กเลือก 4</label>
                                         </div>
-                                        <div class="custom-controls-stacked">
-                                            <label class="custom-control custom-checkbox">
-                                                <input class="custom-control-input" type="checkbox">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">Check box 2</span>
-                                            </label>
+                                        <div class="custom-control custom-checkbox">
+                                            <input id="customCheck5" class="custom-control-input" type="checkbox">
+                                            <label class="custom-control-label" for="customCheck5">Check box 5</label>
                                         </div>
-                                        <div class="custom-controls-stacked">
-                                            <label class="custom-control custom-checkbox">
-                                                <input class="custom-control-input" type="checkbox" disabled="">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">Check box 3 disabled</span>
-                                            </label>
-                                        </div>
-                                        <div class="custom-controls-stacked">
-                                            <label class="custom-control custom-checkbox">
-                                                <input class="custom-control-input checkbox-indeterminate" type="checkbox">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">Check box 4 indeterminate</span>
-                                            </label>
+                                        <div class="custom-control custom-checkbox">
+                                            <input id="customCheck6" class="custom-control-input" type="checkbox" disabled="">
+                                            <label class="custom-control-label" for="customCheck6">Check box 6 disabled</label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label class="col-form-label col-sm-2">Radio inline</label>
                                     <div class="col-sm-10">
-                                        <label class="custom-control custom-radio">
-                                            <input class="custom-control-input" type="radio" name="radiocustom1">
-                                            <span class="custom-control-indicator"></span>
-                                            <span class="custom-control-description">ตัวเลือก 1</span>
-                                        </label>
-                                        <label class="custom-control custom-radio">
-                                            <input class="custom-control-input" type="radio" name="radiocustom1">
-                                            <span class="custom-control-indicator"></span>
-                                            <span class="custom-control-description">Option 2</span>
-                                        </label>
-                                        <label class="custom-control custom-radio">
-                                            <input class="custom-control-input" type="radio" name="radiocustom1" disabled>
-                                            <span class="custom-control-indicator"></span>
-                                            <span class="custom-control-description">Option 3 disabled</span>
-                                        </label>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input id="customRadio1" class="custom-control-input" type="radio" name="radioCustom1">
+                                            <label class="custom-control-label" for="customRadio1">ตัวเลือก 1</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input id="customRadio2" class="custom-control-input" type="radio" name="radioCustom1">
+                                            <label class="custom-control-label" for="customRadio2">Option 2</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input id="customRadio3" class="custom-control-input" type="radio" name="radioCustom1" disabled="">
+                                            <label class="custom-control-label" for="customRadio3">Option 3 disabled</label>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label class="col-form-label col-sm-2">Radio stacked</label>
                                     <div class="col-sm-10">
-                                        <div class="custom-controls-stacked">
-                                            <label class="custom-control custom-radio">
-                                                <input class="custom-control-input" type="radio" name="radiocustom2">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">ตัวเลือก 1</span>
-                                            </label>
+                                        <div class="custom-control custom-radio">
+                                            <input id="customRadio4" class="custom-control-input" type="radio" name="radioCustom2">
+                                            <label class="custom-control-label" for="customRadio4">ตัวเลือก 4</label>
                                         </div>
-                                        <div class="custom-controls-stacked">
-                                            <label class="custom-control custom-radio">
-                                                <input class="custom-control-input" type="radio" name="radiocustom2">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">Option 2</span>
-                                            </label>
+                                        <div class="custom-control custom-radio">
+                                            <input id="customRadio5" class="custom-control-input" type="radio" name="radioCustom2">
+                                            <label class="custom-control-label" for="customRadio5">Option 5</label>
                                         </div>
-                                        <div class="custom-controls-stacked">
-                                            <label class="custom-control custom-radio">
-                                                <input class="custom-control-input" type="radio" name="radiocustom2" disabled="">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">Option 3 disabled</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-form-label col-sm-2">Checkbox validation</label>
-                                    <div class="col-sm-10">
-                                        <div class="custom-controls-stacked has-success">
-                                            <label class="custom-control custom-checkbox">
-                                                <input class="custom-control-input" type="checkbox" checked="">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">ติ๊กเลือก 1</span>
-                                            </label>
-                                        </div>
-                                        <div class="custom-controls-stacked has-warning">
-                                            <label class="custom-control custom-checkbox">
-                                                <input class="custom-control-input" type="checkbox">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">Check box 2</span>
-                                            </label>
-                                        </div>
-                                        <div class="custom-controls-stacked has-danger">
-                                            <label class="custom-control custom-checkbox">
-                                                <input class="custom-control-input" type="checkbox">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">Check box 3</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-form-label col-sm-2">Radio validation</label>
-                                    <div class="col-sm-10">
-                                        <div class="custom-controls-stacked has-success">
-                                            <label class="custom-control custom-radio">
-                                                <input class="custom-control-input" type="radio" name="radiocustom3" checked="">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">ตัวเลือก 1</span>
-                                            </label>
-                                        </div>
-                                        <div class="custom-controls-stacked has-warning">
-                                            <label class="custom-control custom-radio">
-                                                <input class="custom-control-input" type="radio" name="radiocustom3">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">Option 2</span>
-                                            </label>
-                                        </div>
-                                        <div class="custom-controls-stacked has-danger">
-                                            <label class="custom-control custom-radio">
-                                                <input class="custom-control-input" type="radio" name="radiocustom3">
-                                                <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description">Option 3 disabled</span>
-                                            </label>
+                                        <div class="custom-control custom-radio">
+                                            <input id="customRadio6" class="custom-control-input" type="radio" name="radioCustom2" disabled="">
+                                            <label class="custom-control-label" for="customRadio6">Option 6 disabled</label>
                                         </div>
                                     </div>
                                 </div>
@@ -652,6 +564,56 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
+                                    <label class="col-form-label col-sm-2">Select box (large)</label>
+                                    <div class="col-sm-10">
+                                        <select class="custom-select custom-select-lg">
+                                            <option selected>กรุณาเลือก</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-form-label col-sm-2">Select box (small)</label>
+                                    <div class="col-sm-10">
+                                        <select class="custom-select custom-select-sm">
+                                            <option selected>กรุณาเลือก</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-form-label col-sm-2">Select box (multiple)</label>
+                                    <div class="col-sm-10">
+                                        <select class="custom-select" multiple="">
+                                            <option selected>กรุณาเลือก</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="offset-sm-2 col-sm-10">
+                                        <button class="btn btn-primary" type="submit">Submit</button>
+                                        <button class="btn btn-secondary" type="reset">Reset</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <h3>Range</h3>
+                        <div class="example-block">
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-form-label col-sm-2" for="customRange1">Example range</label>
+                                    <div class="col-sm-10">
+                                        <input type="range" class="custom-range" id="customRange1">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
                                     <div class="offset-sm-2 col-sm-10">
                                         <button class="btn btn-primary" type="submit">Submit</button>
                                         <button class="btn btn-secondary" type="reset">Reset</button>
@@ -665,10 +627,10 @@
                                 <div class="form-group row">
                                     <label class="col-form-label col-sm-2">Input file</label>
                                     <div class="col-sm-10">
-                                        <label class="custom-file">
-                                            <input id="file" class="custom-file-input" type="file">
-                                            <span class="custom-file-control"></span>
-                                        </label>
+                                        <div class="custom-file">
+                                            <input id="customfile" class="custom-file-input" type="file">
+                                            <label class="custom-file-label" for="customfile">Choose file</label>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group row">

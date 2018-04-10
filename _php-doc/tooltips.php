@@ -4,34 +4,34 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Tooltips</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Example</h2>
                         <div class="example-block example-static-tooltip">
-                            <div class="tooltip tooltip-top" role="tooltip">
-                                <div class="tooltip-arrow"></div>
+                            <div class="tooltip bs-tooltip-top" role="tooltip">
+                                <div class="arrow"></div>
                                 <div class="tooltip-inner">
                                     Tooltip on the top
                                 </div>
                             </div>
-                            <div class="tooltip tooltip-right" role="tooltip">
-                                <div class="tooltip-arrow"></div>
+                            <div class="tooltip bs-tooltip-right" role="tooltip">
+                                <div class="arrow"></div>
                                 <div class="tooltip-inner">
                                     Tooltip on the right
                                 </div>
                             </div>
-                            <div class="tooltip tooltip-bottom" role="tooltip">
-                                <div class="tooltip-arrow"></div>
+                            <div class="tooltip bs-tooltip-bottom" role="tooltip">
+                                <div class="arrow"></div>
                                 <div class="tooltip-inner">
                                     Tooltip on the bottom
                                 </div>
                             </div>
-                            <div class="tooltip tooltip-left" role="tooltip">
-                                <div class="tooltip-arrow"></div>
+                            <div class="tooltip bs-tooltip-left" role="tooltip">
+                                <div class="arrow"></div>
                                 <div class="tooltip-inner">
                                     Tooltip on the left
                                 </div>

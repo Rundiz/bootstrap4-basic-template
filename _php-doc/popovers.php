@@ -4,41 +4,41 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Popovers</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Example</h2>
                         <div class="example-block example-static-popover">
-                            <div class="popover popover-top">
-                                <div class="popover-arrow"></div>
-                                <h3 class="popover-title">Popover top</h3>
-                                <div class="popover-content">
+                            <div class="popover bs-popover-top">
+                                <div class="arrow"></div>
+                                <h3 class="popover-header">Popover top</h3>
+                                <div class="popover-body">
                                     <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
                                 </div>
                             </div>
-                            <div class="popover popover-right">
-                                <div class="popover-arrow"></div>
-                                <h3 class="popover-title">Popover right</h3>
-                                <div class="popover-content">
+                            <div class="popover bs-popover-right">
+                                <div class="arrow"></div>
+                                <h3 class="popover-header">Popover right</h3>
+                                <div class="popover-body">
                                     <p>โฮปมหภาคบาบูนตรวจทาน แรลลี่ แพลน ดิกชันนารีเชฟ ลิมิตแซมบ้า ทรูแคร็กเกอร์รัมอัลบั้ม โจ๋โอเปร่าอาข่าสมิติเวช หลินจือซูเปอร์.</p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="popover popover-bottom">
-                                <div class="popover-arrow"></div>
-                                <h3 class="popover-title">Popover bottom</h3>
+                            <div class="popover bs-popover-bottom">
+                                <div class="arrow"></div>
+                                <h3 class="popover-header">Popover bottom</h3>
 
-                                <div class="popover-content">
+                                <div class="popover-body">
                                     <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
                                 </div>
                             </div>
-                            <div class="popover popover-left">
-                                <div class="popover-arrow"></div>
-                                <h3 class="popover-title">Popover left</h3>
-                                <div class="popover-content">
+                            <div class="popover bs-popover-left">
+                                <div class="arrow"></div>
+                                <h3 class="popover-header">Popover left</h3>
+                                <div class="popover-body">
                                     <p>โฮปมหภาคบาบูนตรวจทาน แรลลี่ แพลน ดิกชันนารีเชฟ ลิมิตแซมบ้า ทรูแคร็กเกอร์รัมอัลบั้ม โจ๋โอเปร่าอาข่าสมิติเวช หลินจือซูเปอร์.</p>
                                 </div>
                             </div>
@@ -73,6 +73,9 @@
                                 ป๊อปโอเวอร์ด้านขวา
                             </button>
                         </div>
+
+                        <!--bottom space for drop down-->
+                        <div style="height: 900px;"></div>
                     </article>
                 </div>
             </div>

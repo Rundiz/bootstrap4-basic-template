@@ -1,13 +1,12 @@
-            <nav class="navbar navbar-light bg-faded">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="./">BS4 Basic template</a>
-                    <button class="navbar-toggler float-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                        &#9776;
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="clearfix hidden-sm-up"></div>
 
-                    <div class="collapse navbar-toggleable-xs" id="bs4-navbar-collapse">
-                        <ul class="nav navbar-nav">
+                    <div class="collapse navbar-collapse" id="bs4-navbar-collapse">
+                        <ul class="navbar-nav">
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layout</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-item"><a class="nav-link" href="media-object.php">Media object</a></li>
@@ -25,6 +24,7 @@
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-item"><a class="nav-link" href="alerts.php">Alerts</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="badge.php">Badge</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="breadcrumb.php">Breadcrumb</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="buttons.php">Buttons</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="button-group.php">Button group</a></li>
@@ -42,7 +42,6 @@
                                     <li class="dropdown-item"><a class="nav-link" href="pagination.php">Pagination</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="popovers.php">Popovers</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="progress.php">Progress</a></li>
-                                    <li class="dropdown-item"><a class="nav-link" href="tag.php">Tag</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="tooltips.php">Tooltips</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="utilities.php">Utilities</a></li>
                                 </ul>

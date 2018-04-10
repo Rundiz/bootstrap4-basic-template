@@ -13,16 +13,15 @@
 
     <body> 
         <main class="content-wrap">
-            <nav class="navbar navbar-light bg-faded">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="./">BS4 Basic template</a>
-                    <button class="navbar-toggler float-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                        &#9776;
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="clearfix hidden-sm-up"></div>
 
-                    <div class="collapse navbar-toggleable-xs" id="bs4-navbar-collapse">
-                        <ul class="nav navbar-nav">
+                    <div class="collapse navbar-collapse" id="bs4-navbar-collapse">
+                        <ul class="navbar-nav">
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layout</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-item"><a class="nav-link" href="media-object.html">Media object</a></li>
@@ -40,6 +39,7 @@
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-item"><a class="nav-link" href="alerts.html">Alerts</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="badge.html">Badge</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="breadcrumb.html">Breadcrumb</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="buttons.html">Buttons</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="button-group.html">Button group</a></li>
@@ -57,7 +57,6 @@
                                     <li class="dropdown-item"><a class="nav-link" href="pagination.html">Pagination</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="popovers.html">Popovers</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="progress.html">Progress</a></li>
-                                    <li class="dropdown-item"><a class="nav-link" href="tag.html">Tag</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="tooltips.html">Tooltips</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="utilities.html">Utilities</a></li>
                                 </ul>
@@ -71,10 +70,10 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Dropdowns</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Basic example</h2>
@@ -125,14 +124,14 @@
                                         </button>
                                         <ul class="dropdown-menu dropdown-menu-always-show" aria-labelledby="dropdownMenu3">
                                             <li class="dropdown-header">Dropdown header</li>
-                                            <li class="dropdown-item"><a href="#">Action</a></li>
-                                            <li class="dropdown-item"><a href="#">Another action</a></li>
-                                            <li class="dropdown-item"><a href="#">Something else here</a></li>
-                                            <li class="dropdown-item active"><a href="#">Active item</a></li>
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li><a class="dropdown-item active" href="#">Active item</a></li>
                                             <li class="dropdown-divider"></li>
                                             <li class="dropdown-header">หัวข้อภาษาไทย</li>
-                                            <li class="dropdown-item"><a href="#">ลิ้งค์ภาษาไทย</a></li>
-                                            <li class="dropdown-item disabled"><a href="#">ลิ้งค์ปิดใช้งาน</a></li>
+                                            <li><a class="dropdown-item" href="#">ลิ้งค์ภาษาไทย</a></li>
+                                            <li><a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -216,6 +215,34 @@
                                     Danger
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenu9">
+                                    <h6 class="dropdown-header">Dropdown header</h6>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item active" href="#">Active item</a>
+                                    <div class="dropdown-divider"></div>
+                                    <h6 class="dropdown-header">หัวข้อภาษาไทย</h6>
+                                    <a class="dropdown-item" href="#">ลิ้งค์ภาษาไทย</a>
+                                    <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dark
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu10">
+                                    <h6 class="dropdown-header">Dropdown header</h6>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item active" href="#">Active item</a>
+                                    <div class="dropdown-divider"></div>
+                                    <h6 class="dropdown-header">หัวข้อภาษาไทย</h6>
+                                    <a class="dropdown-item" href="#">ลิ้งค์ภาษาไทย</a>
+                                    <a class="dropdown-item disabled" href="#">ลิ้งค์ปิดใช้งาน</a>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Light
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu11">
                                     <h6 class="dropdown-header">Dropdown header</h6>
                                     <a class="dropdown-item" href="#">Action</a>
                                     <a class="dropdown-item active" href="#">Active item</a>
@@ -536,6 +563,9 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!--bottom space for drop down-->
+                        <div style="height: 900px;"></div>
                     </article>
                 </div>
             </div>
@@ -543,7 +573,7 @@
 
         <footer class="footer-wrap">
             <div class="container">
-                <div class="col-xs-12">
+                <div class="col-12">
                     <p>&copy; <a href="https://github.com/Rundiz/bootstrap4-basic-template" target="rundiz_bs4_bt">rundiz - Bootstrap 4 Basic template</a>.</p>
                 </div>
             </div>
@@ -551,8 +581,7 @@
 
 
         <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/tether.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html> 

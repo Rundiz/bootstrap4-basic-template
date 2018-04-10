@@ -13,16 +13,15 @@
 
     <body> 
         <main class="content-wrap">
-            <nav class="navbar navbar-light bg-faded">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="./">BS4 Basic template</a>
-                    <button class="navbar-toggler float-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                        &#9776;
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4-navbar-collapse" aria-controls="bs4-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="clearfix hidden-sm-up"></div>
 
-                    <div class="collapse navbar-toggleable-xs" id="bs4-navbar-collapse">
-                        <ul class="nav navbar-nav">
+                    <div class="collapse navbar-collapse" id="bs4-navbar-collapse">
+                        <ul class="navbar-nav">
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layout</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-item"><a class="nav-link" href="media-object.html">Media object</a></li>
@@ -40,6 +39,7 @@
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-item"><a class="nav-link" href="alerts.html">Alerts</a></li>
+                                    <li class="dropdown-item"><a class="nav-link" href="badge.html">Badge</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="breadcrumb.html">Breadcrumb</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="buttons.html">Buttons</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="button-group.html">Button group</a></li>
@@ -57,7 +57,6 @@
                                     <li class="dropdown-item"><a class="nav-link" href="pagination.html">Pagination</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="popovers.html">Popovers</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="progress.html">Progress</a></li>
-                                    <li class="dropdown-item"><a class="nav-link" href="tag.html">Tag</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="tooltips.html">Tooltips</a></li>
                                     <li class="dropdown-item"><a class="nav-link" href="utilities.html">Utilities</a></li>
                                 </ul>
@@ -71,17 +70,17 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Navbar</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Basic example</h2>
                         <div class="example-block">
-                            <nav class="navbar navbar-light bg-faded">
+                            <nav class="navbar navbar-expand-md navbar-light bg-light">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <ul class="nav navbar-nav">
+                                <ul class="navbar-nav">
                                     <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                     <li class="nav-item dropdown">
@@ -95,12 +94,12 @@
                                     </li>
                                     <li class="nav-item">
                                         <form class="form-inline">
-                                            <input class="form-control" type="text" placeholder="Form on left">
+                                            <input class="form-control mr-1" type="text" placeholder="Form on left">
                                             <button class="btn btn-outline-secondary" type="button">Button</button>
                                         </form>
                                     </li>
                                 </ul>
-                                <ul class="nav navbar-nav float-xs-right">
+                                <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
                                         <form class="form-inline">
                                             <input class="form-control" type="text" placeholder="Form on right">
@@ -122,14 +121,13 @@
 
                         <h2>Responsive navbar</h2>
                         <div class="example-block">
-                            <nav class="navbar navbar-light bg-faded mb-1">
+                            <nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar1" aria-controls="exResponsiveNavbar1" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar1" aria-controls="exResponsiveNavbar1" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar1">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveNavbar1">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown">
@@ -143,12 +141,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -161,14 +159,13 @@
                                     </ul>
                                 </div>
                             </nav>
-                            <nav class="navbar navbar-dark bg-inverse mb-1">
+                            <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar2" aria-controls="exResponsiveNavbar2" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar2" aria-controls="exResponsiveNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar2">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveNavbar2">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown">
@@ -182,12 +179,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -200,14 +197,13 @@
                                     </ul>
                                 </div>
                             </nav>
-                            <nav class="navbar navbar-dark bg-danger mb-1">
+                            <nav class="navbar navbar-expand-md navbar-dark bg-danger mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar3" aria-controls="exResponsiveNavbar3" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar3" aria-controls="exResponsiveNavbar3" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar3">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveNavbar3">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown">
@@ -221,12 +217,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -239,14 +235,13 @@
                                     </ul>
                                 </div>
                             </nav>
-                            <nav class="navbar navbar-dark bg-info mb-1">
+                            <nav class="navbar navbar-expand-md navbar-dark bg-info mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar4" aria-controls="exResponsiveNavbar4" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar4" aria-controls="exResponsiveNavbar4" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar4">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveNavbar4">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown">
@@ -260,12 +255,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -278,14 +273,13 @@
                                     </ul>
                                 </div>
                             </nav>
-                            <nav class="navbar navbar-dark bg-primary mb-1">
+                            <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar5" aria-controls="exResponsiveNavbar5" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar5" aria-controls="exResponsiveNavbar5" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar5">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveNavbar5">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown">
@@ -299,12 +293,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -317,14 +311,13 @@
                                     </ul>
                                 </div>
                             </nav>
-                            <nav class="navbar navbar-dark bg-success mb-1">
+                            <nav class="navbar navbar-expand-md navbar-dark bg-success mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar6" aria-controls="exResponsiveNavbar6" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar6" aria-controls="exResponsiveNavbar6" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar6">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveNavbar6">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown">
@@ -338,12 +331,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -356,14 +349,13 @@
                                     </ul>
                                 </div>
                             </nav>
-                            <nav class="navbar navbar-dark bg-warning mb-1">
+                            <nav class="navbar navbar-expand-md navbar-dark bg-warning mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar7" aria-controls="exResponsiveNavbar7" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar7" aria-controls="exResponsiveNavbar7" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar7">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveNavbar7">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown">
@@ -377,12 +369,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -397,14 +389,13 @@
                             </nav>
  
                             <h3>Actived menu in dropdown menu</h3>
-                            <nav class="navbar navbar-light bg-faded mb-1">
+                            <nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar1" aria-controls="exResponsiveActiveInDropdownNavbar1" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar1" aria-controls="exResponsiveActiveInDropdownNavbar1" aria-expanded="false" aria-label="Toggle navigation">
+                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar1">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveActiveInDropdownNavbar1">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown active">
@@ -418,12 +409,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -436,14 +427,13 @@
                                     </ul>
                                 </div>
                             </nav>
-                            <nav class="navbar navbar-dark bg-inverse mb-1">
+                            <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar2" aria-controls="exResponsiveActiveInDropdownNavbar2" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar2" aria-controls="exResponsiveActiveInDropdownNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar2">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveActiveInDropdownNavbar2">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown active">
@@ -457,12 +447,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -475,14 +465,13 @@
                                     </ul>
                                 </div>
                             </nav>
-                            <nav class="navbar navbar-dark bg-danger mb-1">
+                            <nav class="navbar navbar-expand-md navbar-dark bg-danger mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar3" aria-controls="exResponsiveActiveInDropdownNavbar3" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar3" aria-controls="exResponsiveActiveInDropdownNavbar3" aria-expanded="false" aria-label="Toggle navigation">
+                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar3">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveActiveInDropdownNavbar3">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown active">
@@ -496,12 +485,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -514,14 +503,13 @@
                                     </ul>
                                 </div>
                             </nav>
-                            <nav class="navbar navbar-dark bg-info mb-1">
+                            <nav class="navbar navbar-expand-md navbar-dark bg-info mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar4" aria-controls="exResponsiveActiveInDropdownNavbar4" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar4" aria-controls="exResponsiveActiveInDropdownNavbar4" aria-expanded="false" aria-label="Toggle navigation">
+                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar4">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveActiveInDropdownNavbar4">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown active">
@@ -535,12 +523,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -553,14 +541,13 @@
                                     </ul>
                                 </div>
                             </nav>
-                            <nav class="navbar navbar-dark bg-primary mb-1">
+                            <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar5" aria-controls="exResponsiveActiveInDropdownNavbar5" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar5" aria-controls="exResponsiveActiveInDropdownNavbar5" aria-expanded="false" aria-label="Toggle navigation">
+                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar5">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveActiveInDropdownNavbar5">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown active">
@@ -574,12 +561,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -592,14 +579,13 @@
                                     </ul>
                                 </div>
                             </nav>
-                            <nav class="navbar navbar-dark bg-success mb-1">
+                            <nav class="navbar navbar-expand-md navbar-dark bg-success mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar6" aria-controls="exResponsiveActiveInDropdownNavbar6" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar6" aria-controls="exResponsiveActiveInDropdownNavbar6" aria-expanded="false" aria-label="Toggle navigation">
+                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar6">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveActiveInDropdownNavbar6">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown active">
@@ -613,12 +599,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -631,14 +617,13 @@
                                     </ul>
                                 </div>
                             </nav>
-                            <nav class="navbar navbar-dark bg-warning mb-1">
+                            <nav class="navbar navbar-expand-md navbar-dark bg-warning mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar7" aria-controls="exResponsiveActiveInDropdownNavbar7" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar7" aria-controls="exResponsiveActiveInDropdownNavbar7" aria-expanded="false" aria-label="Toggle navigation">
+                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar7">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveActiveInDropdownNavbar7">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown active">
@@ -652,12 +637,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -671,342 +656,6 @@
                                 </div>
                             </nav>
  
-                        </div>
-
-
-                        <h2>Collapsible content</h2>
-                        <div class="example-block">
-                            <nav class="navbar navbar-light bg-faded mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar1" aria-controls="exCollapsingNavbar1" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar1" class="collapse">
-                                    <div class="bg-inverse text-muted pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                            <nav class="navbar navbar-dark bg-inverse mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar2" class="collapse">
-                                    <div class="bg-inverse text-muted pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                            <nav class="navbar navbar-dark bg-inverse mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar3" aria-controls="exCollapsingNavbar3" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar3" class="collapse">
-                                    <div class="bg-danger text-muted pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                            <nav class="navbar navbar-dark bg-inverse mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar4" aria-controls="exCollapsingNavbar4" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar4" class="collapse">
-                                    <div class="bg-info pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                            <nav class="navbar navbar-dark bg-inverse mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar5" aria-controls="exCollapsingNavbar5" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar5" class="collapse">
-                                    <div class="bg-primary text-white pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                            <nav class="navbar navbar-dark bg-inverse mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar6" aria-controls="exCollapsingNavbar6" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar6" class="collapse">
-                                    <div class="bg-success text-muted pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                            <nav class="navbar navbar-dark bg-inverse mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar7" aria-controls="exCollapsingNavbar7" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar7" class="collapse">
-                                    <div class="bg-warning pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                            <nav class="navbar navbar-dark bg-danger mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar8" aria-controls="exCollapsingNavbar8" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar8" class="collapse">
-                                    <div class="bg-inverse text-muted pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                            <nav class="navbar navbar-dark bg-info mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar9" aria-controls="exCollapsingNavbar9" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar9" class="collapse">
-                                    <div class="bg-inverse text-muted pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                            <nav class="navbar navbar-dark bg-primary mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar10" aria-controls="exCollapsingNavbar10" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar10" class="collapse">
-                                    <div class="bg-inverse text-muted pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                            <nav class="navbar navbar-dark bg-success mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar11" aria-controls="exCollapsingNavbar11" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar11" class="collapse">
-                                    <div class="bg-inverse text-muted pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                            <nav class="navbar navbar-dark bg-warning mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar12" aria-controls="exCollapsingNavbar12" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar12" class="collapse">
-                                    <div class="bg-inverse text-muted pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
- 
-                        </div>
-
-
-                        <h2>Placement</h2>
-                        <div class="example-block example-navbar-block">
-                            <nav class="navbar navbar-full navbar-light bg-faded">
-                                <a class="navbar-brand" href="#">Full width</a>
-                                <ul class="nav navbar-nav">
-                                    <li class="nav-item"><a class="nav-link active">Active link</a></li>
-                                    <li class="nav-item"><a class="nav-link">Link</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="example-block example-navbar-block">
-                            <nav class="navbar navbar-fixed-top navbar-light bg-faded">
-                                <a class="navbar-brand" href="#">Fixed top</a>
-                                <ul class="nav navbar-nav">
-                                    <li class="nav-item"><a class="nav-link active">Active link</a></li>
-                                    <li class="nav-item"><a class="nav-link">Link</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="example-block example-navbar-block">
-                            <nav class="navbar navbar-fixed-bottom navbar-light bg-faded">
-                                <a class="navbar-brand" href="#">Fixed bottom</a>
-                                <ul class="nav navbar-nav">
-                                    <li class="nav-item"><a class="nav-link active">Active link</a></li>
-                                    <li class="nav-item"><a class="nav-link">Link</a></li>
-                                </ul>
-                            </nav>
                         </div>
                     </article>
                 </div>
@@ -1015,7 +664,7 @@
 
         <footer class="footer-wrap">
             <div class="container">
-                <div class="col-xs-12">
+                <div class="col-12">
                     <p>&copy; <a href="https://github.com/Rundiz/bootstrap4-basic-template" target="rundiz_bs4_bt">rundiz - Bootstrap 4 Basic template</a>.</p>
                 </div>
             </div>
@@ -1023,8 +672,7 @@
 
 
         <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/tether.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html> 

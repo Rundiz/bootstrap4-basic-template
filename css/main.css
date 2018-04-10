@@ -63,7 +63,8 @@ html, body {
 }
 .footer-wrap p {
   color: #aaa;
-  margin: 10px 0;
+  line-height: 40px;
+  margin: 0;
 }
 
 .home-page-feature-thumbnails img.img-fluid {
@@ -73,5 +74,3 @@ html, body {
 .home-page-jumbotron {
   margin-top: 30px;
 }
-
-/*# sourceMappingURL=main.css.map */

@@ -4,17 +4,17 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Navbar</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Basic example</h2>
                         <div class="example-block">
-                            <nav class="navbar navbar-light bg-faded">
+                            <nav class="navbar navbar-expand-md navbar-light bg-light">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <ul class="nav navbar-nav">
+                                <ul class="navbar-nav">
                                     <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                     <li class="nav-item dropdown">
@@ -28,12 +28,12 @@
                                     </li>
                                     <li class="nav-item">
                                         <form class="form-inline">
-                                            <input class="form-control" type="text" placeholder="Form on left">
+                                            <input class="form-control mr-1" type="text" placeholder="Form on left">
                                             <button class="btn btn-outline-secondary" type="button">Button</button>
                                         </form>
                                     </li>
                                 </ul>
-                                <ul class="nav navbar-nav float-xs-right">
+                                <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
                                         <form class="form-inline">
                                             <input class="form-control" type="text" placeholder="Form on right">
@@ -57,14 +57,13 @@
                         <div class="example-block">
 <?php
                             $navbar_responsive_example = <<<EOF
-                            <nav class="navbar %NAVBAR_CLASS% mb-1">
+                            <nav class="navbar navbar-expand-md %NAVBAR_CLASS% mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar%EXAMPLE_NUMBER%" aria-controls="exResponsiveNavbar%EXAMPLE_NUMBER%" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveNavbar%EXAMPLE_NUMBER%" aria-controls="exResponsiveNavbar%EXAMPLE_NUMBER%" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveNavbar%EXAMPLE_NUMBER%">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveNavbar%EXAMPLE_NUMBER%">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item active"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown">
@@ -78,12 +77,12 @@
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -99,8 +98,8 @@
 
 EOF;
                             $color_schemes = [
-                                0 => ['navbar_class' => 'navbar-light bg-faded'],
-                                1 => ['navbar_class' => 'navbar-dark bg-inverse'],
+                                0 => ['navbar_class' => 'navbar-light bg-light'],
+                                1 => ['navbar_class' => 'navbar-dark bg-dark'],
                                 2 => ['navbar_class' => 'navbar-dark bg-danger'],
                                 3 => ['navbar_class' => 'navbar-dark bg-info'],
                                 4 => ['navbar_class' => 'navbar-dark bg-primary'],
@@ -117,14 +116,13 @@ EOF;
                             <h3>Actived menu in dropdown menu</h3>
 <?php
                             $navbar_responsive_example = <<<EOF
-                            <nav class="navbar %NAVBAR_CLASS% mb-1">
+                            <nav class="navbar navbar-expand-md %NAVBAR_CLASS% mb-3">
                                 <a class="navbar-brand" href="#">Navbar</a>
-                                <button class="navbar-toggler float-xs-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar%EXAMPLE_NUMBER%" aria-controls="exResponsiveActiveInDropdownNavbar%EXAMPLE_NUMBER%" aria-expanded="false" aria-label="Toggle navigation">
-                                    &#9776;
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exResponsiveActiveInDropdownNavbar%EXAMPLE_NUMBER%" aria-controls="exResponsiveActiveInDropdownNavbar%EXAMPLE_NUMBER%" aria-expanded="false" aria-label="Toggle navigation">
+                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="clearfix hidden-lg-up"></div>
-                                <div class="collapse navbar-toggleable-md" id="exResponsiveActiveInDropdownNavbar%EXAMPLE_NUMBER%">
-                                    <ul class="nav navbar-nav">
+                                <div class="collapse navbar-collapse" id="exResponsiveActiveInDropdownNavbar%EXAMPLE_NUMBER%">
+                                    <ul class="navbar-nav">
                                         <li class="nav-item"><a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                                         <li class="nav-item dropdown active">
@@ -138,12 +136,12 @@ EOF;
                                         </li>
                                         <li class="nav-item">
                                             <form class="form-inline">
-                                                <input class="form-control" type="text" placeholder="Form on left">
+                                                <input class="form-control mr-1" type="text" placeholder="Form on left">
                                                 <button class="btn btn-outline-secondary" type="button">Button</button>
                                             </form>
                                         </li>
                                     </ul>
-                                    <ul class="nav navbar-nav float-lg-right">
+                                    <ul class="navbar-nav ml-auto">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                             <div class="dropdown-menu dropdown-menu-right">
@@ -165,91 +163,6 @@ EOF;
                             }
                             unset($color_schemes, $i, $item, $navbar_responsive_example);
 ?> 
-                        </div>
-
-
-                        <h2>Collapsible content</h2>
-                        <div class="example-block">
-<?php
-                            $navbar_collapsible_example = <<<EOF
-                            <nav class="navbar %NAVBAR_CLASS% mb-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar%EXAMPLE_NUMBER%" aria-controls="exCollapsingNavbar%EXAMPLE_NUMBER%" aria-expanded="false" aria-label="Toggle navigation">
-                                </button>
-                                <div id="exCollapsingNavbar%EXAMPLE_NUMBER%" class="collapse">
-                                    <div class="%EXPANDED_AREA_CLASS% pa-1 p-1">
-                                        <h4>Collapsed content</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a class="nav-link active" href="#">แอ็คทีฟ</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">ลิ้งค์</a></li>
-                                                    <li class="nav-item"><a class="nav-link disabled" href="#">ปิดใช้งาน</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-
-EOF;
-                            $color_schemes = [
-                                0 => ['navbar_class' => 'navbar-light bg-faded', 'expanded_area_class' => 'bg-inverse text-muted'],
-                                1 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-inverse text-muted'],
-                                2 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-danger text-muted'],
-                                3 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-info'],
-                                4 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-primary text-white'],
-                                5 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-success text-muted'],
-                                6 => ['navbar_class' => 'navbar-dark bg-inverse', 'expanded_area_class' => 'bg-warning'],
-                                7 => ['navbar_class' => 'navbar-dark bg-danger', 'expanded_area_class' => 'bg-inverse text-muted'],
-                                8 => ['navbar_class' => 'navbar-dark bg-info', 'expanded_area_class' => 'bg-inverse text-muted'],
-                                9 => ['navbar_class' => 'navbar-dark bg-primary', 'expanded_area_class' => 'bg-inverse text-muted'],
-                                10 => ['navbar_class' => 'navbar-dark bg-success', 'expanded_area_class' => 'bg-inverse text-muted'],
-                                11 => ['navbar_class' => 'navbar-dark bg-warning', 'expanded_area_class' => 'bg-inverse text-muted'],
-                            ];
-                            $i = 1;
-                            foreach ($color_schemes as $item) {
-                                echo str_replace(['%NAVBAR_CLASS%', '%EXAMPLE_NUMBER%', '%EXPANDED_AREA_CLASS%'], [$item['navbar_class'], $i, $item['expanded_area_class']], $navbar_collapsible_example);
-                                $i++;
-                            }
-                            unset($color_schemes, $i, $item, $navbar_collapsible_example);
-?> 
-                        </div>
-
-
-                        <h2>Placement</h2>
-                        <div class="example-block example-navbar-block">
-                            <nav class="navbar navbar-full navbar-light bg-faded">
-                                <a class="navbar-brand" href="#">Full width</a>
-                                <ul class="nav navbar-nav">
-                                    <li class="nav-item"><a class="nav-link active">Active link</a></li>
-                                    <li class="nav-item"><a class="nav-link">Link</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="example-block example-navbar-block">
-                            <nav class="navbar navbar-fixed-top navbar-light bg-faded">
-                                <a class="navbar-brand" href="#">Fixed top</a>
-                                <ul class="nav navbar-nav">
-                                    <li class="nav-item"><a class="nav-link active">Active link</a></li>
-                                    <li class="nav-item"><a class="nav-link">Link</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="example-block example-navbar-block">
-                            <nav class="navbar navbar-fixed-bottom navbar-light bg-faded">
-                                <a class="navbar-brand" href="#">Fixed bottom</a>
-                                <ul class="nav navbar-nav">
-                                    <li class="nav-item"><a class="nav-link active">Active link</a></li>
-                                    <li class="nav-item"><a class="nav-link">Link</a></li>
-                                </ul>
-                            </nav>
                         </div>
                     </article>
                 </div>

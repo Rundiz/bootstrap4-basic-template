@@ -4,10 +4,10 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Breadcrumb</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Example</h2>
@@ -15,7 +15,7 @@
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Library</a></li>
-                                <li class="breadcrumb-item active">Data</li>
+                                <li class="breadcrumb-item active" aria-current="page">Data</li>
                             </ol>
                         </div>
                         <h3>With link in the last item</h3>
@@ -23,7 +23,7 @@
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Library</a></li>
-                                <li class="breadcrumb-item active"><a href="#">Data</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><a href="#">Data</a></li>
                             </ol>
                         </div>
                     </article>

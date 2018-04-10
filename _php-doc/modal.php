@@ -4,10 +4,10 @@
 
             <div class="container">
                 <div class="row">
-                    <article class="col-xs-12">
-                        <header class="mb-1 mt-2">
+                    <article class="col-12">
+                        <header class="mb-3 mt-4">
                             <h1 class="my-0">Modal</h1>
-                            <hr class="mb-0 mt-1">
+                            <hr class="mb-0 mt-3">
                         </header>
 
                         <h2>Static example</h2>
@@ -16,8 +16,8 @@
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
+                                            <h5 class="modal-title">Modal title | ไตเติล</h5>
                                             <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Modal title | ไตเติล</h4>
                                         </div>
                                         <div class="modal-body">
                                             <p>One fine body&hellip;</p>
@@ -40,10 +40,10 @@
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
+                                            <h5 id="myModalLabel" class="modal-title">Modal title | ไตเติล</h5>
                                             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
-                                            <h4 id="myModalLabel" class="modal-title">Modal title | ไตเติล</h4>
                                         </div>
                                         <div class="modal-body">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit tincidunt iaculis. Phasellus hendrerit sem non dui commodo, vel iaculis nulla tincidunt.</p>
@@ -59,10 +59,10 @@
                                 <div class="modal-dialog modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
+                                            <h5 id="myLargeModalLabel" class="modal-title">Modal title | ไตเติล</h5>
                                             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
-                                            <h4 id="myLargeModalLabel" class="modal-title">Modal title | ไตเติล</h4>
                                         </div>
                                         <div class="modal-body">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit tincidunt iaculis. Phasellus hendrerit sem non dui commodo, vel iaculis nulla tincidunt.</p>
@@ -78,10 +78,10 @@
                                 <div class="modal-dialog modal-sm" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
+                                            <h5 id="mySmallModalLabel" class="modal-title">Modal title | ไตเติล</h5>
                                             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
-                                            <h4 id="mySmallModalLabel" class="modal-title">Modal title | ไตเติล</h4>
                                         </div>
                                         <div class="modal-body">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit tincidunt iaculis. Phasellus hendrerit sem non dui commodo, vel iaculis nulla tincidunt.</p>
